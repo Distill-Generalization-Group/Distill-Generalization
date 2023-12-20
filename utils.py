@@ -326,7 +326,7 @@ def KL_diversity(P, Q):
 
 loss_list = []
 
-def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=None, tem=1, log=False):
+def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=None, temperature=1.5, alpha=0.5, log=False):
     #print("args:", args)
     loss_avg, acc_avg, num_exp = 0, 0, 0
     net = net.to(args.device)
@@ -356,13 +356,13 @@ def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=
             kl = nn.KLDivLoss(reduction='batchmean')
             x_log = F.log_softmax(output, dim=-1)
             y = F.softmax(teacher_output, dim=-1)
-            kl_loss = tem * kl(x_log, y)
-            #print("kl_loss: ", kl_loss.item() / tem)
+            kl_loss = temperature * kl(x_log, y)
+            #print("kl_loss: ", kl_loss.item() / temperature)
                 #print("debug: ", x_log, y, kl_loss)
             #print("Ce_loss: ", loss.item())
-            loss += kl_loss
+            loss = loss * (1 - alpha) + kl_loss * alpha * (temperature**2)
             
-            #kl_loss = tem * F.kl_div(output.softmax(dim=-1).log(), teacher_output.softmax(dim=-1), reduction='sum')
+            #kl_loss = temperature * F.kl_div(output.softmax(dim=-1).log(), teacher_output.softmax(dim=-1), reduction='sum')
             if log:
                 loss_list.append(loss.item())
         else:
@@ -420,7 +420,7 @@ def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, 
     lr = float(args.lr_net)
     for ep in range(Epoch+1):
         #print("t_model:", teacher_model)
-        loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model)
+        loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model, temperature=args.temperature, alpha=args.alpha)
         # update learning rate:
         if ep in lr_schedule:
             lr *= 0.1

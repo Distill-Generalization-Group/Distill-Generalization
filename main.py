@@ -34,6 +34,8 @@ def main():
     parser.add_argument('--use_ModelPool', action="store_true", help='whether use model pool or not')
     parser.add_argument('--use_Dropout', action="store_true", help='whether use dropout or not')
     parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
+    parser.add_argument('--temperature', type=int, default=1.5, help='temperature for knowledge distillation')
+    parser.add_argument('--alpha', type=int, default=0.5, help='weight factor for knowledge distillation')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
@@ -171,7 +173,7 @@ def main():
             ''' Train synthetic data '''
             net = get_network(args.model, channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device)
             if args.use_ModelPool:
-                if it <= 1000:
+                if it <= 500:
                     net = get_network(args.model, channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device)
                 else:
                     net = get_network("ModelPool", channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device) # randomly select a model from the model pool
