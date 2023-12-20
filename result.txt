@@ -1,0 +1,13 @@
+dataset: CIFAR10
+ipc: 1
+iteration: 1000
+use_ModelPool: True
+use_Dropout: False
+use_KD: False
+evaluate 2 random MLP, mean  = 27.15%  std = 0.45%
+evaluate 2 random ConvNet, mean  = 28.48%  std = 0.09%
+evaluate 2 random LeNet, mean  = 20.82%  std = 2.97%
+evaluate 2 random AlexNet, mean  = 17.61%  std = 0.48%
+evaluate 2 random VGG11, mean  = 25.67%  std = 0.13%
+evaluate 2 random ResNet18, mean  = 18.08%  std = 0.99%
+

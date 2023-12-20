@@ -390,7 +390,6 @@ def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=
 
 
 def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, teacher_model):
-    print("KD:", args.use_KD)
     net = net.to(args.device)
     images_train = images_train.to(args.device)
     labels_train = labels_train.to(args.device)
@@ -420,7 +419,6 @@ def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, 
     # train student model:
     lr = float(args.lr_net)
     for ep in range(Epoch+1):
-        #print("args: KD", args.use_KD)
         #print("t_model:", teacher_model)
         loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model)
         # update learning rate:

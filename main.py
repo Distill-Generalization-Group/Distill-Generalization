@@ -31,9 +31,9 @@ def main():
     parser.add_argument('--data_path', type=str, default='data', help='dataset path')
     parser.add_argument('--save_path', type=str, default='result', help='path to save results')
     parser.add_argument('--dis_metric', type=str, default='ours', help='distance metric')
-    parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
-    parser.add_argument('--use_Dropout', action="store_true", help='whether use dropout or not')
     parser.add_argument('--use_ModelPool', action="store_true", help='whether use model pool or not')
+    parser.add_argument('--use_Dropout', action="store_true", help='whether use dropout or not')
+    parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
@@ -110,6 +110,7 @@ def main():
 
             ''' Evaluate synthetic data '''
             if it in eval_it_pool:
+                current_accs = dict()
                 for model_eval in model_eval_pool:
                     print('-------------------------\nEvaluation\nmodel_train = %s, model_eval = %s, iteration = %d'%(args.model, model_eval, it))
                     if args.dsa:
@@ -137,6 +138,25 @@ def main():
 
                     if it == args.Iteration: # record the final results
                         accs_all_exps[model_eval] += accs
+                    current_accs[model_eval] = accs
+                with open("result.txt", 'a') as f:
+                    print("dataset: ", args.dataset)
+                    print("ipc: ", args.ipc)
+                    print("iteration: ", it)
+                    print("use_ModelPool: ", args.use_ModelPool)
+                    print("use_Dropout: ", args.use_Dropout)
+                    print("use_KD: ", args.use_KD)
+                    f.write("dataset: " + args.dataset + "\n")
+                    f.write("ipc: " + str(args.ipc) + "\n")
+                    f.write("iteration: " + str(it) + "\n")
+                    f.write("use_ModelPool: " + str(args.use_ModelPool) + "\n")
+                    f.write("use_Dropout: " + str(args.use_Dropout) + "\n")
+                    f.write("use_KD: " + str(args.use_KD) + "\n")
+                    for key in model_eval_pool:
+                        accs = current_accs[key]
+                        print('evaluate %d random %s, mean  = %.2f%%  std = %.2f%%'%(len(accs), key, np.mean(accs)*100, np.std(accs)*100))
+                        f.write('evaluate %d random %s, mean  = %.2f%%  std = %.2f%%\n'%(len(accs), key, np.mean(accs)*100, np.std(accs)*100))
+                    f.write("\n")
 
                 ''' visualize and save '''
                 save_name = os.path.join(args.save_path, 'vis_%s_%s_%s_%dipc_exp%d_iter%d.png'%(args.method, args.dataset, args.model, args.ipc, exp, it))
@@ -222,9 +242,6 @@ def main():
                 dst_syn_train = TensorDataset(image_syn_train, label_syn_train)
                 trainloader = torch.utils.data.DataLoader(dst_syn_train, batch_size=args.batch_train, shuffle=True, num_workers=0)
                 for il in range(args.inner_loop):
-                    # if args.use_KD:
-                    #     epoch('train', trainloader, net, optimizer_net, criterion, args, aug = True if args.dsa else False, KD_flag=args.use_KD, teacher_model=teacher_model, test_set=dst_train)
-                    # else:
                     epoch('train', trainloader, net, optimizer_net, criterion, args, aug = True if args.dsa else False)
 
 
@@ -239,6 +256,11 @@ def main():
 
 
     print('\n==================== Final Results ====================\n')
+    print("dataset: ", args.dataset)
+    print("ipc: ", args.ipc)
+    print("use_ModelPool: ", args.use_ModelPool)
+    print("use_Dropout: ", args.use_Dropout)
+    print("use_KD: ", args.use_KD)
     for key in model_eval_pool:
         accs = accs_all_exps[key]
         print('Run %d experiments, train on %s, evaluate %d random %s, mean  = %.2f%%  std = %.2f%%'%(args.num_exp, args.model, len(accs), key, np.mean(accs)*100, np.std(accs)*100))
