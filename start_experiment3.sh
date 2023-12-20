@@ -1,0 +1,1 @@
+python main.py  --method DC  --dataset CIFAR10  --model ConvNet  --eval_mode my_eval  --ipc 1 --num_exp 1  --num_eval 2  --Iteration 3000  --use_ModelPool  --use_KD  --temperature 0.5  --alpha 0.5

@@ -34,8 +34,8 @@ def main():
     parser.add_argument('--use_ModelPool', action="store_true", help='whether use model pool or not')
     parser.add_argument('--use_Dropout', action="store_true", help='whether use dropout or not')
     parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
-    parser.add_argument('--temperature', type=int, default=1.5, help='temperature for knowledge distillation')
-    parser.add_argument('--alpha', type=int, default=0.5, help='weight factor for knowledge distillation')
+    parser.add_argument('--temperature', type=float, default=1.5, help='temperature for knowledge distillation')
+    parser.add_argument('--alpha', type=float, default=0.5, help='weight factor for knowledge distillation')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
@@ -148,12 +148,16 @@ def main():
                     print("use_ModelPool: ", args.use_ModelPool)
                     print("use_Dropout: ", args.use_Dropout)
                     print("use_KD: ", args.use_KD)
+                    if args.use_KD:
+                        print("temperature: ", args.temperature, "alpha: ", args.alpha)
                     f.write("dataset: " + args.dataset + "\n")
                     f.write("ipc: " + str(args.ipc) + "\n")
                     f.write("iteration: " + str(it) + "\n")
                     f.write("use_ModelPool: " + str(args.use_ModelPool) + "\n")
                     f.write("use_Dropout: " + str(args.use_Dropout) + "\n")
                     f.write("use_KD: " + str(args.use_KD) + "\n")
+                    if args.use_KD:
+                        f.write("temperature: " + str(args.temperature) + ", alpha: " + str(args.alpha) + "\n")
                     for key in model_eval_pool:
                         accs = current_accs[key]
                         print('evaluate %d random %s, mean  = %.2f%%  std = %.2f%%'%(len(accs), key, np.mean(accs)*100, np.std(accs)*100))
@@ -263,6 +267,8 @@ def main():
     print("use_ModelPool: ", args.use_ModelPool)
     print("use_Dropout: ", args.use_Dropout)
     print("use_KD: ", args.use_KD)
+    if args.use_KD:
+        print("temperature: ", args.temperature, ", alpha: ", args.alpha)
     for key in model_eval_pool:
         accs = accs_all_exps[key]
         print('Run %d experiments, train on %s, evaluate %d random %s, mean  = %.2f%%  std = %.2f%%'%(args.num_exp, args.model, len(accs), key, np.mean(accs)*100, np.std(accs)*100))

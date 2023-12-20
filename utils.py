@@ -142,7 +142,7 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dropout=False):
     elif model == 'AlexNetBN':
         net = AlexNetBN(channel=channel, num_classes=num_classes)
     elif model == 'VGG11':
-        net = VGG11( channel=channel, num_classes=num_classes)
+        net = VGG11(channel=channel, num_classes=num_classes)
     elif model == 'VGG11BN':
         net = VGG11BN(channel=channel, num_classes=num_classes)
     elif model == 'ResNet18':
@@ -166,8 +166,8 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dropout=False):
         net_act = np.random.choice(['sigmoid', 'relu', 'leakyrelu', 'swish'])
         net_norm = np.random.choice(['batchnorm', 'layernorm', 'instancenorm', 'groupnorm'])
         net_pooling = np.random.choice(['maxpooling', 'avgpooling'])
-        net_depth = np.random.randint(1, 6)
-        # net_depth = 1
+        # net_depth = np.random.randint(1, 6)
+        net_depth = 1
         net = ConvNet(channel=channel, num_classes=num_classes, net_width=net_width, net_depth=net_depth, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
     elif model == 'ConvNetW32':
         net = ConvNet(channel=channel, num_classes=num_classes, net_width=32, net_depth=net_depth, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
