@@ -1,0 +1,127 @@
+MNIST
+ipc=1,num_exp=5
+
+Run 5 experiments, train on MLP, evaluate 100 random MLP, mean  = 13.03%  std = 10.30%
+Run 5 experiments, train on MLP, evaluate 100 random ConvNet, mean  = 45.64%  std = 6.84%
+Run 5 experiments, train on MLP, evaluate 100 random LeNet, mean  = 42.55%  std = 12.58%
+Run 5 experiments, train on MLP, evaluate 100 random AlexNet, mean  = 19.59%  std = 15.28%
+Run 5 experiments, train on MLP, evaluate 100 random VGG11, mean  = 39.13%  std = 5.80%
+Run 5 experiments, train on MLP, evaluate 100 random ResNet18, mean  = 55.03%  std = 9.21%
+
+Run 5 experiments, train on ConvNet, evaluate 100 random MLP, mean  = 70.10%  std = 1.81%
+Run 5 experiments, train on ConvNet, evaluate 100 random ConvNet, mean  = 91.82%  std = 0.50%
+Run 5 experiments, train on ConvNet, evaluate 100 random LeNet, mean  = 85.61%  std = 1.74%
+Run 5 experiments, train on ConvNet, evaluate 100 random AlexNet, mean  = 85.26%  std = 4.98%
+Run 5 experiments, train on ConvNet, evaluate 100 random VGG11, mean  = 84.15%  std = 1.90%
+Run 5 experiments, train on ConvNet, evaluate 100 random ResNet18, mean  = 90.24%  std = 0.62%
+
+Run 5 experiments, train on LeNet, evaluate 100 random MLP, mean  = 69.50%  std = 2.15%
+Run 5 experiments, train on LeNet, evaluate 100 random ConvNet, mean  = 89.74%  std = 1.03%
+Run 5 experiments, train on LeNet, evaluate 100 random LeNet, mean  = 85.48%  std = 1.80%
+Run 5 experiments, train on LeNet, evaluate 100 random AlexNet, mean  = 84.93%  std = 4.80%
+Run 5 experiments, train on LeNet, evaluate 100 random VGG11, mean  = 81.57%  std = 2.32%
+Run 5 experiments, train on LeNet, evaluate 100 random ResNet18, mean  = 88.75%  std = 0.94%
+
+Run 5 experiments, train on AlexNet, evaluate 100 random MLP, mean  = 70.87%  std = 1.61%
+Run 5 experiments, train on AlexNet, evaluate 100 random ConvNet, mean  = 88.80%  std = 1.34%
+Run 5 experiments, train on AlexNet, evaluate 100 random LeNet, mean  = 84.04%  std = 2.67%
+Run 5 experiments, train on AlexNet, evaluate 100 random AlexNet, mean  = 83.95%  std = 2.71%
+Run 5 experiments, train on AlexNet, evaluate 100 random VGG11, mean  = 83.10%  std = 2.01%
+Run 5 experiments, train on AlexNet, evaluate 100 random ResNet18, mean  = 89.29%  std = 1.00%
+
+
+
+
+CIFAR10
+ipc=1,num_exp=1
+
+iteration=1000
+Run 1 experiments, train on ConvNet, evaluate 2 random MLP, mean  = 26.25%  std = 0.20%
+Run 1 experiments, train on ConvNet, evaluate 2 random ConvNet, mean  = 27.98%  std = 0.60%
+Run 1 experiments, train on ConvNet, evaluate 2 random LeNet, mean  = 18.80%  std = 1.06%
+Run 1 experiments, train on ConvNet, evaluate 2 random AlexNet, mean  = 19.06%  std = 0.47%
+Run 1 experiments, train on ConvNet, evaluate 2 random VGG11, mean  = 25.54%  std = 0.48%
+Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 17.20%  std = 0.88%
+
+
+iteration=10000
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 27.17%  std = 0.02%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.18%  std = 0.30%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 22.77%  std = 1.30%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 14.93%  std = 4.93%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 25.28%  std = 0.60%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 20.17%  std = 0.02%
+
+zbl result:
+CIFAR10
+ipc=1,num_exp=1
+
+iteration=3000 without dropout
+Run 1 experiments, train on ConvNet, evaluate 2 random MLP, mean  = 26.40%  std = 0.59%
+Run 1 experiments, train on ConvNet, evaluate 2 random ConvNet, mean  = 27.82%  std = 0.76%
+Run 1 experiments, train on ConvNet, evaluate 2 random LeNet, mean  = 20.88%  std = 0.14%
+Run 1 experiments, train on ConvNet, evaluate 2 random AlexNet, mean  = 18.16%  std = 0.46%
+Run 1 experiments, train on ConvNet, evaluate 2 random VGG11, mean  = 25.04%  std = 0.33%
+Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 18.02%  std = 0.24%
+
+iteration=3000 with dropout "origin model distribution"
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 27.12%  std = 1.20%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 27.45%  std = 0.47%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 22.16%  std = 0.16%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 20.26%  std = 0.64%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 25.53%  std = 0.03%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.04%  std = 0.04%
+
+iteration=3000 with dropout distribution: model = np.random.choice(['ConvNet', 'ConvNetD1', 'ConvNetD2', 'ConvNetD3', 'ConvNetD4', 'ConvNetD5'], p=[1, 0, 0, 0, 0, 0])
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 27.43%  std = 0.60%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.44%  std = 0.29%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 21.64%  std = 0.64%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 21.43%  std = 0.40%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 23.89%  std = 2.22%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.58%  std = 0.11%
+
+iteration=3000 with dropout & KD
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 25.88%  std = 0.37%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.23%  std = 0.63%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 22.63%  std = 0.60%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 15.92%  std = 5.91%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 26.13%  std = 0.60%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 16.66%  std = 0.21%
+
+ipc=10 iteration=5000
+Run 1 experiments, train on ConvNet, evaluate 3 random MLP, mean  = 27.97%  std = 0.22%
+Run 1 experiments, train on ConvNet, evaluate 3 random ConvNet, mean  = 46.07%  std = 0.51%
+Run 1 experiments, train on ConvNet, evaluate 3 random LeNet, mean  = 22.23%  std = 0.87%
+Run 1 experiments, train on ConvNet, evaluate 3 random AlexNet, mean  = 22.37%  std = 0.66%
+Run 1 experiments, train on ConvNet, evaluate 3 random VGG11, mean  = 35.84%  std = 0.26%
+Run 1 experiments, train on ConvNet, evaluate 3 random ResNet18, mean  = 19.41%  std = 0.76%
+
+Run 1 experiments, train on RandomChoose, evaluate 3 random MLP, mean  = 26.54%  std = 0.46%
+Run 1 experiments, train on RandomChoose, evaluate 3 random ConvNet, mean  = 45.12%  std = 0.71%
+Run 1 experiments, train on RandomChoose, evaluate 3 random LeNet, mean  = 22.39%  std = 1.02%
+Run 1 experiments, train on RandomChoose, evaluate 3 random AlexNet, mean  = 16.87%  std = 5.74%
+Run 1 experiments, train on RandomChoose, evaluate 3 random VGG11, mean  = 35.07%  std = 0.56%
+Run 1 experiments, train on RandomChoose, evaluate 3 random ResNet18, mean  = 19.39%  std = 1.09%
+
+baseline 3000
+Run 1 experiments, train on ConvNet, evaluate 2 random MLP, mean  = 27.23%  std = 0.08%
+Run 1 experiments, train on ConvNet, evaluate 2 random ConvNet, mean  = 28.10%  std = 0.08%
+Run 1 experiments, train on ConvNet, evaluate 2 random LeNet, mean  = 23.36%  std = 0.53%
+Run 1 experiments, train on ConvNet, evaluate 2 random AlexNet, mean  = 18.10%  std = 2.97%
+Run 1 experiments, train on ConvNet, evaluate 2 random VGG11, mean  = 25.05%  std = 0.05%
+Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 17.88%  std = 0.95%
+
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 26.56%  std = 1.14%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.18%  std = 0.07%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 20.43%  std = 0.26%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 9.92%  std = 0.09%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 24.57%  std = 0.63%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 17.73%  std = 0.38%
+
+KD
+Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 25.15%  std = 0.58%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.39%  std = 0.06%
+Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 18.58%  std = 0.61%
+Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 13.95%  std = 3.94%
+Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 25.66%  std = 0.11%
+Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.16%  std = 0.73%
