@@ -132,7 +132,8 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dropout=False):
         # 以90%的概率选择ConvNet，以10%的概率随机选择其他模型
         # model = np.random.choice(['ConvNet', 'MLP', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'], p=[0.9, 0.02, 0.02, 0.02, 0.02, 0.02])
         # model = np.random.choice(['ConvNet', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'], p=[0.9, 0.02, 0.02, 0.02, 0.04])
-        model = np.random.choice(['ConvNet', 'ConvNetD1', 'ConvNetD2', 'ConvNetD3', 'ConvNetD4', 'ConvNetD5'], p=[0.9, 0.02, 0.02, 0.02, 0.02, 0.02])
+        # model = np.random.choice(['ConvNet', 'ConvNetD1', 'ConvNetD2', 'ConvNetD3', 'ConvNetD4', 'ConvNetD5'], p=[0.9, 0.02, 0.02, 0.02, 0.02, 0.02])
+        model = np.random.choice(['ConvNet', 'randomConvNet'], p=[0.9, 0.1])
         # model = np.random.choice(['ConvNet', 'ResNet18', 'ResNet18BN_AP', 'ResNet18BN'], p=[0.9, 0.04, 0.03, 0.03])
         # model = np.random.choice(['MLP', 'ConvNet', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'])
         # model = np.random.choice(['MLP', 'ConvNet', 'LeNet', 'AlexNet', 'AlexNetBN', 'VGG11', 'VGG11BN', 'ResNet18', 'ResNet18BN_AP', 'ResNet18BN', 
@@ -174,7 +175,13 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dropout=False):
         net = ConvNet(channel=channel, num_classes=num_classes, net_width=net_width, net_depth=4, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
     elif model == 'ConvNetD5':
         net = ConvNet(channel=channel, num_classes=num_classes, net_width=net_width, net_depth=5, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
-
+    elif model == 'randomConvNet':
+        net_act = np.random.choice(['sigmoid', 'relu', 'leakyrelu', 'swish'])
+        net_norm = np.random.choice(['batchnorm', 'layernorm', 'instancenorm', 'groupnorm'])
+        net_pooling = np.random.choice(['maxpooling', 'avgpooling'])
+        net_depth = np.random.randint(1, 6)
+        # net_depth = 1
+        net = ConvNet(channel=channel, num_classes=num_classes, net_width=net_width, net_depth=net_depth, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
     elif model == 'ConvNetW32':
         net = ConvNet(channel=channel, num_classes=num_classes, net_width=32, net_depth=net_depth, net_act=net_act, net_norm=net_norm, net_pooling=net_pooling, im_size=im_size, dropout=dropout)
     elif model == 'ConvNetW64':
