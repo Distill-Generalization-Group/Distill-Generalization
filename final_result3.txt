@@ -1,0 +1,18 @@
+CIFAR10
+ipc=1, num_exp=1, outer_loop=1, inner_loop=10
+
+iteration=1000, baseline
+Run 1 experiments, train on ConvNet, evaluate 2 random MLP, mean  = 26.41%  std = 1.31%
+Run 1 experiments, train on ConvNet, evaluate 2 random ConvNet, mean  = 28.19%  std = 0.69%
+Run 1 experiments, train on ConvNet, evaluate 2 random LeNet, mean  = 20.98%  std = 0.62%
+Run 1 experiments, train on ConvNet, evaluate 2 random AlexNet, mean  = 18.88%  std = 0.50%
+Run 1 experiments, train on ConvNet, evaluate 2 random VGG11, mean  = 25.85%  std = 0.20%
+Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 16.89%  std = 0.63%
+
+iteration=1000, dropout + KD
+Run 1 experiments, train on ConvNet, evaluate 2 random MLP, mean  = 25.40%  std = 0.70%
+Run 1 experiments, train on ConvNet, evaluate 2 random ConvNet, mean  = 25.29%  std = 0.39%
+Run 1 experiments, train on ConvNet, evaluate 2 random LeNet, mean  = 16.12%  std = 0.57%
+Run 1 experiments, train on ConvNet, evaluate 2 random AlexNet, mean  = 10.00%  std = 0.00%
+Run 1 experiments, train on ConvNet, evaluate 2 random VGG11, mean  = 17.34%  std = 1.83%
+Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 21.37%  std = 0.89%

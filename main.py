@@ -31,16 +31,15 @@ def main():
     parser.add_argument('--data_path', type=str, default='data', help='dataset path')
     parser.add_argument('--save_path', type=str, default='result', help='path to save results')
     parser.add_argument('--dis_metric', type=str, default='ours', help='distance metric')
-    parser.add_argument('--KD', type=int, default=0, help='KD')
+    parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
+    parser.add_argument('--use_Dropout', action="store_true", help='whether use dropout or not')
+    parser.add_argument('--use_ModelPool', action="store_true", help='whether use model pool or not')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
     args.device = 'cuda' if torch.cuda.is_available() else 'cpu'
     args.dsa_param = ParamDiffAug()
     args.dsa = True if args.method == 'DSA' else False
-    
-    # if args.model == "RandomChoose":
-    #     args.Iteration = 20000
 
     if not os.path.exists(args.data_path):
         os.mkdir(args.data_path)
@@ -48,32 +47,11 @@ def main():
     if not os.path.exists(args.save_path):
         os.mkdir(args.save_path)
 
-    eval_it_pool = np.arange(0, args.Iteration+1, 500).tolist() if args.eval_mode == 'S' or args.eval_mode == 'SS' else [args.Iteration] # The list of iterations when we evaluate models and record results.
-    if args.model == 'RandomChoose':
-        eval_it_pool = np.arange(0, args.Iteration+1, 1000).tolist()
+    # eval_it_pool = np.arange(0, args.Iteration+1, 500).tolist() if args.eval_mode == 'S' or args.eval_mode == 'SS' else [args.Iteration] # The list of iterations when we evaluate models and record results.
+    eval_it_pool = np.arange(1000, args.Iteration+1, 1000).tolist()
     print('eval_it_pool: ', eval_it_pool)
     channel, im_size, num_classes, class_names, mean, std, dst_train, dst_test, testloader = get_dataset(args.dataset, args.data_path)
     model_eval_pool = get_eval_pool(args.eval_mode, args.model, args.model)
-
-    # if args.KD:
-    #     teacher_model = get_network("ConvNetD1", channel, num_classes, im_size).to(args.device)
-    #     # Train the teacher model on the whole dataset:
-    #     teacher_model.train()
-    #     #teacher_model_parameters = list(teacher_model.parameters())
-    #     optimizer_teacher = torch.optim.SGD(teacher_model.parameters(), lr=args.lr_net)  # optimizer_img for synthetic data
-    #     optimizer_teacher.zero_grad()
-    #     criterion = nn.CrossEntropyLoss().to(args.device)
-    #     print('%s training begins'%get_time())
-    #     for _ in tqdm.tqdm(range(5)):
-    #         for img in tqdm.tqdm(dst_train):
-    #             iimg = img[0].unsqueeze(0).to(args.device)
-    #             label = torch.tensor([img[1]], dtype=torch.long, device=args.device)
-    #             output = teacher_model(iimg)
-    #             loss = criterion(output, label)
-    #             optimizer_teacher.zero_grad()
-    #             loss.backward()
-    #             optimizer_teacher.step()
-    #     print("Teacher model training finished!")
     
     accs_all_exps = dict() # record performances of all experiments
     for key in model_eval_pool:
@@ -127,8 +105,6 @@ def main():
         optimizer_img.zero_grad()
         criterion = nn.CrossEntropyLoss().to(args.device)
         print('%s training begins'%get_time())
-        
-        # nets = my_create_network(channel, num_classes, im_size)
 
         for it in range(args.Iteration+1):
 
@@ -173,13 +149,12 @@ def main():
 
 
             ''' Train synthetic data '''
-            # if args.model == "RandomChoose":
-            #     net = nets[np.random.randint(0, len(nets))] # 从nets中随机选一个网络
-            # else :
-            #     net = get_network(args.model, channel, num_classes, im_size).to(args.device) # get a random model
-            net = get_network(args.model, channel, num_classes, im_size).to(args.device) # get a random model
-            if args.model == "RandomChoose" and it <= 1000:
-                net = get_network("ConvNet", channel, num_classes, im_size, dropout=True).to(args.device)
+            net = get_network(args.model, channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device)
+            if args.use_ModelPool:
+                if it <= 1000:
+                    net = get_network(args.model, channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device)
+                else:
+                    net = get_network("ModelPool", channel, num_classes, im_size, dropout=args.use_Dropout).to(args.device) # randomly select a model from the model pool
             net.train()
             net_parameters = list(net.parameters())
             optimizer_net = torch.optim.SGD(net.parameters(), lr=args.lr_net)  # optimizer_img for synthetic data
@@ -247,8 +222,8 @@ def main():
                 dst_syn_train = TensorDataset(image_syn_train, label_syn_train)
                 trainloader = torch.utils.data.DataLoader(dst_syn_train, batch_size=args.batch_train, shuffle=True, num_workers=0)
                 for il in range(args.inner_loop):
-                    # if args.KD:
-                    #     epoch('train', trainloader, net, optimizer_net, criterion, args, aug = True if args.dsa else False, KD_flag=args.KD, teacher_model=teacher_model, test_set=dst_train)
+                    # if args.use_KD:
+                    #     epoch('train', trainloader, net, optimizer_net, criterion, args, aug = True if args.dsa else False, KD_flag=args.use_KD, teacher_model=teacher_model, test_set=dst_train)
                     # else:
                     epoch('train', trainloader, net, optimizer_net, criterion, args, aug = True if args.dsa else False)
 

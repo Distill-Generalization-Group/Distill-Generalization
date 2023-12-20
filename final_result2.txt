@@ -53,29 +53,29 @@ Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 19.28% 
 
 
 iteration=10000(update net_depth)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 27.17%  std = 0.02%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.18%  std = 0.30%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 22.77%  std = 1.30%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 14.93%  std = 4.93%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 25.28%  std = 0.60%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 20.17%  std = 0.02%
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 27.17%  std = 0.02%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 28.18%  std = 0.30%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 22.77%  std = 1.30%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 14.93%  std = 4.93%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 25.28%  std = 0.60%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 20.17%  std = 0.02%
 
 
 iteration=4000(update net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 27.37%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 28.50%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 20.80%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 20.56%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 24.76%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 19.58%
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 27.37%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 28.50%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 20.80%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 20.56%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 24.76%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 19.58%
 
 iteration=4000(update net_depth, net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 25.11%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 27.11%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 19.93%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 12.29%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 24.00%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 20.22%
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 25.11%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 27.11%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 19.93%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 12.29%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 24.00%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 20.22%
 
 
 CIFAR10
@@ -107,50 +107,50 @@ Run 1 experiments, train on ConvNet, evaluate 2 random ResNet18, mean  = 19.40%
 
 
 
-interation=2000, RandomChoose(update net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 28.16%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 43.67%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 23.87%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 29.48%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 34.56%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.99%
+interation=2000, ModelPool(update net_act, net_norm, net_pooling)
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 28.16%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 43.67%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 23.87%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 29.48%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 34.56%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 18.99%
 
-interation=3000, RandomChoose(update net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 29.13%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 45.34%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 25.21%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 29.60%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 33.57%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.90%
-
-
-
-interation=2000, RandomChoose(update net_depth, net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 31.16%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 43.78%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 25.26%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 28.48%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 33.46%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.09%
-
-interation=3000, RandomChoose(update net_depth, net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 31.39%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 44.27%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 27.56%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 26.66%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 33.71%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.37%
-
-interation=4000, RandomChoose(update net_depth, net_act, net_norm, net_pooling)
-Run 1 experiments, train on RandomChoose, evaluate 2 random MLP, mean  = 30.13%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ConvNet, mean  = 44.47%
-Run 1 experiments, train on RandomChoose, evaluate 2 random LeNet, mean  = 26.36%
-Run 1 experiments, train on RandomChoose, evaluate 2 random AlexNet, mean  = 28.28%
-Run 1 experiments, train on RandomChoose, evaluate 2 random VGG11, mean  = 33.29%
-Run 1 experiments, train on RandomChoose, evaluate 2 random ResNet18, mean  = 18.27%
+interation=3000, ModelPool(update net_act, net_norm, net_pooling)
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 29.13%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 45.34%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 25.21%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 29.60%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 33.57%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 18.90%
 
 
 
+interation=2000, ModelPool(update net_depth, net_act, net_norm, net_pooling)
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 31.16%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 43.78%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 25.26%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 28.48%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 33.46%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 18.09%
 
-third:  RandomChoose(update net_act, net_norm, net_pooling)
-fourth: RandomChoose(update net_depth, net_act, net_norm, net_pooling)
+interation=3000, ModelPool(update net_depth, net_act, net_norm, net_pooling)
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 31.39%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 44.27%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 27.56%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 26.66%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 33.71%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 18.37%
+
+interation=4000, ModelPool(update net_depth, net_act, net_norm, net_pooling)
+Run 1 experiments, train on ModelPool, evaluate 2 random MLP, mean  = 30.13%
+Run 1 experiments, train on ModelPool, evaluate 2 random ConvNet, mean  = 44.47%
+Run 1 experiments, train on ModelPool, evaluate 2 random LeNet, mean  = 26.36%
+Run 1 experiments, train on ModelPool, evaluate 2 random AlexNet, mean  = 28.28%
+Run 1 experiments, train on ModelPool, evaluate 2 random VGG11, mean  = 33.29%
+Run 1 experiments, train on ModelPool, evaluate 2 random ResNet18, mean  = 18.27%
+
+
+
+
+third:  ModelPool(update net_act, net_norm, net_pooling)
+fourth: ModelPool(update net_depth, net_act, net_norm, net_pooling)

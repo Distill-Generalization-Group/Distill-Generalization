@@ -128,21 +128,8 @@ def get_network(model, channel, num_classes, im_size=(32, 32), dropout=False):
     torch.random.manual_seed(int(time.time() * 1000) % 100000)
     net_width, net_depth, net_act, net_norm, net_pooling = get_default_convnet_setting()
 
-    if model == "RandomChoose":
-        # 以90%的概率选择ConvNet，以10%的概率随机选择其他模型
-        # model = np.random.choice(['ConvNet', 'MLP', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'], p=[0.9, 0.02, 0.02, 0.02, 0.02, 0.02])
-        # model = np.random.choice(['ConvNet', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'], p=[0.9, 0.02, 0.02, 0.02, 0.04])
-        # model = np.random.choice(['ConvNet', 'ConvNetD1', 'ConvNetD2', 'ConvNetD3', 'ConvNetD4', 'ConvNetD5'], p=[0.9, 0.02, 0.02, 0.02, 0.02, 0.02])
+    if model == "ModelPool":
         model = np.random.choice(['ConvNet', 'randomConvNet'], p=[0.9, 0.1])
-        # model = np.random.choice(['ConvNet', 'ResNet18', 'ResNet18BN_AP', 'ResNet18BN'], p=[0.9, 0.04, 0.03, 0.03])
-        # model = np.random.choice(['MLP', 'ConvNet', 'LeNet', 'AlexNet', 'VGG11', 'ResNet18'])
-        # model = np.random.choice(['MLP', 'ConvNet', 'LeNet', 'AlexNet', 'AlexNetBN', 'VGG11', 'VGG11BN', 'ResNet18', 'ResNet18BN_AP', 'ResNet18BN', 
-        #                           'ConvNetD1', 'ConvNetD2', 'ConvNetD3', 'ConvNetD4', 
-        #                           'ConvNetW32', 'ConvNetW64', 'ConvNetW128', 'ConvNetW256', 
-        #                           'ConvNetAS', 'ConvNetAR', 'ConvNetAL', 'ConvNetASwish', 'ConvNetASwishBN', 
-        #                           'ConvNetNN', 'ConvNetBN', 'ConvNetLN', 'ConvNetIN', 'ConvNetGN',
-        #                           'ConvNetNP', 'ConvNetMP', 'ConvNetAP'
-        #                           ])
 
     if model == 'MLP':
         net = MLP(channel=channel, num_classes=num_classes)
@@ -363,7 +350,7 @@ def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=
         n_b = lab.shape[0]
 
         output = net(img)
-        if (args.KD == 1) and (teacher_model is not None):
+        if args.use_KD and (teacher_model is not None):
             loss = criterion(output, lab)
             teacher_output = teacher_model(img)
             kl = nn.KLDivLoss(reduction='batchmean')
@@ -403,7 +390,7 @@ def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=
 
 
 def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, teacher_model):
-    print("KD:", args.KD)
+    print("KD:", args.use_KD)
     net = net.to(args.device)
     images_train = images_train.to(args.device)
     labels_train = labels_train.to(args.device)
@@ -418,7 +405,7 @@ def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, 
     trainloader = torch.utils.data.DataLoader(dst_train, batch_size=args.batch_train, shuffle=True, num_workers=0)
 
     start = time.time()
-    if args.KD == 1:
+    if args.use_KD:
         # first train teacher model:
         for ep in range(Epoch+1):
             loss_train, acc_train = epoch('train', trainloader, teacher_model, optimizer_t, criterion, args, aug = True)
@@ -433,7 +420,7 @@ def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, 
     # train student model:
     lr = float(args.lr_net)
     for ep in range(Epoch+1):
-        #print("args: KD", args.KD)
+        #print("args: KD", args.use_KD)
         #print("t_model:", teacher_model)
         loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model)
         # update learning rate:
