@@ -36,6 +36,7 @@ def main():
     parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
     parser.add_argument('--temperature', type=float, default=1.5, help='temperature for knowledge distillation')
     parser.add_argument('--alpha', type=float, default=0.5, help='weight factor for knowledge distillation')
+    parser.add_argument('--temperature_decay', type=float, default=0.8, help='temperature decay factor for knowledge distillation')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)

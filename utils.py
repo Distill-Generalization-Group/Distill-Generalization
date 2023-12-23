@@ -418,9 +418,11 @@ def evaluate_synset(it_eval, net, images_train, labels_train, testloader, args, 
         print("Teacher model test acc:", acc_testt)
     # train student model:
     lr = float(args.lr_net)
+    cur_temperature = args.temperature
     for ep in range(Epoch+1):
         #print("t_model:", teacher_model)
-        loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model, temperature=args.temperature, alpha=args.alpha)
+        loss_train, acc_train = epoch('train', trainloader, net, optimizer, criterion, args, aug = True, teacher_model=teacher_model, temperature=cur_temperature, alpha=args.alpha)
+        cur_temperature *= args.temperature_decay
         # update learning rate:
         if ep in lr_schedule:
             lr *= 0.1
