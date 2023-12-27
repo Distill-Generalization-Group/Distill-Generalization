@@ -7,6 +7,7 @@ import torch
 import torch.nn as nn
 from torchvision.utils import save_image
 import tqdm
+import matplotlib.pyplot as plt
 from utils import get_loops, get_dataset, get_network, get_eval_pool, evaluate_synset, get_daparam, match_loss, get_time, TensorDataset, epoch, DiffAugment, ParamDiffAug, my_create_network
 
 
@@ -36,7 +37,10 @@ def main():
     parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
     parser.add_argument('--temperature', type=float, default=1.5, help='temperature for knowledge distillation')
     parser.add_argument('--alpha', type=float, default=0.5, help='weight factor for knowledge distillation')
-    parser.add_argument('--temperature_decay', type=float, default=0.8, help='temperature decay factor for knowledge distillation')
+    parser.add_argument('--temperature_decay', type=float, default=1, help='temperature decay factor for knowledge distillation')
+    parser.add_argument('--use_stored', action="store_true", help='whether use store or not')
+    parser.add_argument('--cached_img_path', type=str, default="", help='path to save cached images')
+    parser.add_argument('--eval_model', type=str, default="", help='evaluation net type')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
@@ -61,7 +65,58 @@ def main():
         accs_all_exps[key] = []
 
     data_save = []
-
+    
+    eval_model_list = ["MLP", "ConvNet", "LeNet", "AlexNet", "VGG11", "ResNet18"]
+    #eval_model_list = ["MLP", "ConvNet"]
+    model_acc_list = []
+    if args.use_stored:
+        if args.eval_model == "all":
+            fig = plt.figure()
+            ax = fig.add_subplot(1, 1, 1)
+            plt.xlabel("KD Temperature")
+            plt.ylabel("Test Accuracy (%)")
+            #plt.title("temperature vs accuracy")
+            for index in range(len(eval_model_list)):
+                args.eval_model = eval_model_list[index]
+                tem_list = [0.0, 0.05, 0.1, 0.5, 1.0, 1.5, 2.0, 3.0, 5.0, 7.0, 10.0, 15.0, 20]
+                #from 1 to len(tem_list)
+                x_list = [i for i in range(1, len(tem_list)+1)]
+                tem_acc_list = []
+                for i in tqdm.tqdm(range(len(tem_list))):
+                    args.temperature = tem_list[i]
+                    print("use stored data")
+                    assert args.cached_img_path != ""
+                    assert args.eval_model != ""
+                    if args.dsa:
+                        args.epoch_eval_train = 1000
+                        args.dc_aug_param = None
+                        print('DSA augmentation strategy: \n', args.dsa_strategy)
+                        print('DSA augmentation parameters: \n', args.dsa_param.__dict__)
+                    else:
+                        args.dc_aug_param = get_daparam(args.dataset, args.model, args.eval_model, args.ipc) # This augmentation parameter set is only for DC method. It will be muted when args.dsa is True.
+                        print('DC augmentation parameters: \n', args.dc_aug_param)
+                    acc_list = []
+                    raw_data = torch.load(args.cached_img_path)
+                    image_syn_eval = raw_data['data'][0][0].to(args.device)
+                    label_syn_eval = raw_data['data'][0][1].to(args.device)
+                    for _ in tqdm.tqdm(range(args.num_eval)):
+                        print("Load synthetic data from: ", args.cached_img_path)
+                        data = torch.load(args.cached_img_path)
+                        net_teacher = get_network("ConvNet", channel, num_classes, im_size).to(args.device)
+                        net_eval = get_network(args.eval_model, channel, num_classes, im_size).to(args.device) # get a random model
+                        it_eval = int(args.cached_img_path.split("_")[-1].split(".")[0])
+                        _, acc_train, acc_test = evaluate_synset(it_eval, net_eval, image_syn_eval, label_syn_eval, testloader, args, teacher_model=net_teacher)
+                        acc_list.append(acc_test)
+                    print('Evaluate %d random %s, mean = %.4f std = %.4f\n-------------------------'%(len(acc_list), args.eval_model, np.mean(acc_list), np.std(acc_list)))
+                    tem_acc_list.append(np.mean(acc_list))
+                model_acc_list.append({"model": args.eval_model, "max_acc": max(tem_acc_list), "max_tem": tem_list[tem_acc_list.index(max(tem_acc_list))]})
+                ax.plot(x_list, tem_acc_list, label=args.eval_model)
+                ax.set_xticks(x_list)
+                ax.set_xticklabels(tem_list)
+                ax.legend()
+            plt.savefig("img/temperature_vs_accuracy.svg", format='svg',dpi=150)
+            print("final result: \n", model_acc_list)
+        return
 
     for exp in range(args.num_exp):
         print('\n================== Exp %d ==================\n '%exp)
@@ -257,9 +312,13 @@ def main():
             if it%10 == 0:
                 print('%s iter = %04d, loss = %.4f' % (get_time(), it, loss_avg))
 
-            if it == args.Iteration: # only record the final results
+            if it % 1000 == 0 and it != 0:
                 data_save.append([copy.deepcopy(image_syn.detach().cpu()), copy.deepcopy(label_syn.detach().cpu())])
-                torch.save({'data': data_save, 'accs_all_exps': accs_all_exps, }, os.path.join(args.save_path, 'res_%s_%s_%s_%dipc.pt'%(args.method, args.dataset, args.model, args.ipc)))
+                torch.save({'data': data_save, 'accs_all_exps': accs_all_exps, }, os.path.join(args.save_path, 'res_%s_%s_%s_%dipc_%d.pt'%(args.method, args.dataset, args.model, args.ipc, it)))
+            
+            # if it == args.Iteration: # only record the final results
+            #     data_save.append([copy.deepcopy(image_syn.detach().cpu()), copy.deepcopy(label_syn.detach().cpu())])
+            #     torch.save({'data': data_save, 'accs_all_exps': accs_all_exps, }, os.path.join(args.save_path, 'res_%s_%s_%s_%dipc.pt'%(args.method, args.dataset, args.model, args.ipc)))
 
 
     print('\n==================== Final Results ====================\n')

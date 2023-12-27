@@ -1,91 +1,156 @@
 dataset: CIFAR10
-ipc: 1
-iteration: 1000
-use_ModelPool: False
-use_Dropout: False
-use_KD: False
-evaluate 10 random MLP, mean  = 26.15%  std = 0.74%
-evaluate 10 random ConvNet, mean  = 28.04%  std = 0.74%
-evaluate 10 random LeNet, mean  = 20.00%  std = 1.54%
-evaluate 10 random AlexNet, mean  = 15.57%  std = 4.27%
-evaluate 10 random VGG11, mean  = 24.56%  std = 0.80%
-evaluate 10 random ResNet18, mean  = 17.94%  std = 1.23%
-
-dataset: CIFAR10
-ipc: 1
-iteration: 2000
-use_ModelPool: False
-use_Dropout: False
-use_KD: False
-evaluate 10 random MLP, mean  = 26.05%  std = 0.82%
-evaluate 10 random ConvNet, mean  = 27.89%  std = 0.36%
-evaluate 10 random LeNet, mean  = 20.61%  std = 0.85%
-evaluate 10 random AlexNet, mean  = 15.70%  std = 4.29%
-evaluate 10 random VGG11, mean  = 25.18%  std = 0.68%
-evaluate 10 random ResNet18, mean  = 18.29%  std = 1.25%
-
-dataset: CIFAR10
-ipc: 1
-iteration: 3000
-use_ModelPool: False
-use_Dropout: False
-use_KD: False
-evaluate 10 random MLP, mean  = 26.34%  std = 0.80%
-evaluate 10 random ConvNet, mean  = 28.18%  std = 0.63%
-evaluate 10 random LeNet, mean  = 21.61%  std = 2.06%
-evaluate 10 random AlexNet, mean  = 18.10%  std = 3.40%
-evaluate 10 random VGG11, mean  = 25.25%  std = 0.64%
-evaluate 10 random ResNet18, mean  = 18.59%  std = 0.67%
-
-dataset: CIFAR10
-ipc: 1
+ipc: 10
 iteration: 1000
 use_ModelPool: True
 use_Dropout: False
 use_KD: False
-evaluate 10 random MLP, mean  = 27.24%  std = 0.94%
-evaluate 10 random ConvNet, mean  = 28.08%  std = 0.60%
-evaluate 10 random LeNet, mean  = 20.80%  std = 1.36%
-evaluate 10 random AlexNet, mean  = 16.52%  std = 3.17%
-evaluate 10 random VGG11, mean  = 25.53%  std = 0.86%
-evaluate 10 random ResNet18, mean  = 17.82%  std = 0.95%
+evaluate 10 random MLP, mean  = 31.33%  std = 0.58%
+evaluate 10 random ConvNet, mean  = 43.82%  std = 0.42%
+evaluate 10 random LeNet, mean  = 24.82%  std = 1.62%
+evaluate 10 random AlexNet, mean  = 28.45%  std = 2.24%
+evaluate 10 random VGG11, mean  = 34.81%  std = 0.57%
+evaluate 10 random ResNet18, mean  = 18.60%  std = 0.91%
 
 dataset: CIFAR10
-ipc: 1
+ipc: 10
 iteration: 2000
 use_ModelPool: True
 use_Dropout: False
 use_KD: False
-evaluate 10 random MLP, mean  = 27.57%  std = 1.00%
-evaluate 10 random ConvNet, mean  = 28.24%  std = 0.35%
-evaluate 10 random LeNet, mean  = 20.60%  std = 1.23%
-evaluate 10 random AlexNet, mean  = 17.84%  std = 3.98%
-evaluate 10 random VGG11, mean  = 25.08%  std = 1.05%
-evaluate 10 random ResNet18, mean  = 19.23%  std = 1.25%
+evaluate 10 random MLP, mean  = 29.96%  std = 0.33%
+evaluate 10 random ConvNet, mean  = 43.27%  std = 0.50%
+evaluate 10 random LeNet, mean  = 25.70%  std = 1.64%
+evaluate 10 random AlexNet, mean  = 29.33%  std = 0.68%
+evaluate 10 random VGG11, mean  = 34.11%  std = 0.78%
+evaluate 10 random ResNet18, mean  = 18.59%  std = 0.92%
 
 dataset: CIFAR10
-ipc: 1
+ipc: 10
 iteration: 3000
 use_ModelPool: True
 use_Dropout: False
 use_KD: False
-evaluate 10 random MLP, mean  = 27.69%  std = 0.78%
-evaluate 10 random ConvNet, mean  = 28.34%  std = 0.35%
-evaluate 10 random LeNet, mean  = 22.07%  std = 1.58%
-evaluate 10 random AlexNet, mean  = 18.68%  std = 3.65%
-evaluate 10 random VGG11, mean  = 24.30%  std = 0.87%
-evaluate 10 random ResNet18, mean  = 19.34%  std = 0.57%
+evaluate 10 random MLP, mean  = 30.02%  std = 0.54%
+evaluate 10 random ConvNet, mean  = 45.05%  std = 0.41%
+evaluate 10 random LeNet, mean  = 25.13%  std = 1.62%
+evaluate 10 random AlexNet, mean  = 27.02%  std = 3.92%
+evaluate 10 random VGG11, mean  = 33.59%  std = 0.63%
+evaluate 10 random ResNet18, mean  = 19.08%  std = 0.81%
 
 dataset: CIFAR10
-ipc: 1
+ipc: 10
 iteration: 1000
 use_ModelPool: False
 use_Dropout: True
 use_KD: False
-evaluate 10 random MLP, mean  = 27.20%  std = 0.54%
-evaluate 10 random ConvNet, mean  = 26.94%  std = 0.66%
-evaluate 10 random LeNet, mean  = 18.57%  std = 1.52%
-evaluate 10 random AlexNet, mean  = 15.86%  std = 3.10%
-evaluate 10 random VGG11, mean  = 23.58%  std = 1.26%
-evaluate 10 random ResNet18, mean  = 18.57%  std = 1.08%
+evaluate 10 random MLP, mean  = 28.87%  std = 0.69%
+evaluate 10 random ConvNet, mean  = 41.25%  std = 0.82%
+evaluate 10 random LeNet, mean  = 22.09%  std = 2.25%
+evaluate 10 random AlexNet, mean  = 23.01%  std = 1.97%
+evaluate 10 random VGG11, mean  = 33.01%  std = 0.41%
+evaluate 10 random ResNet18, mean  = 18.08%  std = 1.04%
+
+dataset: CIFAR10
+ipc: 10
+iteration: 2000
+use_ModelPool: False
+use_Dropout: True
+use_KD: False
+evaluate 10 random MLP, mean  = 27.34%  std = 0.61%
+evaluate 10 random ConvNet, mean  = 41.99%  std = 0.90%
+evaluate 10 random LeNet, mean  = 22.36%  std = 1.78%
+evaluate 10 random AlexNet, mean  = 20.00%  std = 3.34%
+evaluate 10 random VGG11, mean  = 32.91%  std = 0.97%
+evaluate 10 random ResNet18, mean  = 19.12%  std = 1.01%
+
+dataset: CIFAR10
+ipc: 10
+iteration: 3000
+use_ModelPool: False
+use_Dropout: True
+use_KD: False
+evaluate 10 random MLP, mean  = 27.17%  std = 0.69%
+evaluate 10 random ConvNet, mean  = 42.20%  std = 0.43%
+evaluate 10 random LeNet, mean  = 21.80%  std = 2.74%
+evaluate 10 random AlexNet, mean  = 20.93%  std = 1.59%
+evaluate 10 random VGG11, mean  = 32.70%  std = 0.75%
+evaluate 10 random ResNet18, mean  = 18.67%  std = 1.22%
+
+dataset: CIFAR10
+ipc: 1
+iteration: 1000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 25.87%  std = 0.90%
+evaluate 10 random ConvNet, mean  = 27.89%  std = 0.61%
+evaluate 10 random LeNet, mean  = 20.52%  std = 0.96%
+evaluate 10 random AlexNet, mean  = 18.80%  std = 3.19%
+evaluate 10 random VGG11, mean  = 24.81%  std = 1.36%
+evaluate 10 random ResNet18, mean  = 18.13%  std = 1.16%
+
+dataset: CIFAR10
+ipc: 1
+iteration: 2000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 26.51%  std = 0.95%
+evaluate 10 random ConvNet, mean  = 28.18%  std = 0.54%
+evaluate 10 random LeNet, mean  = 21.44%  std = 1.10%
+evaluate 10 random AlexNet, mean  = 18.29%  std = 3.10%
+evaluate 10 random VGG11, mean  = 24.87%  std = 1.30%
+evaluate 10 random ResNet18, mean  = 18.26%  std = 1.15%
+
+dataset: CIFAR10
+ipc: 1
+iteration: 3000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 26.50%  std = 0.72%
+evaluate 10 random ConvNet, mean  = 28.36%  std = 0.46%
+evaluate 10 random LeNet, mean  = 20.66%  std = 1.71%
+evaluate 10 random AlexNet, mean  = 17.39%  std = 3.29%
+evaluate 10 random VGG11, mean  = 25.24%  std = 0.82%
+evaluate 10 random ResNet18, mean  = 19.10%  std = 0.96%
+
+dataset: CIFAR10
+ipc: 10
+iteration: 1000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 27.33%  std = 0.74%
+evaluate 10 random ConvNet, mean  = 44.57%  std = 0.62%
+evaluate 10 random LeNet, mean  = 20.71%  std = 2.86%
+evaluate 10 random AlexNet, mean  = 19.83%  std = 3.73%
+evaluate 10 random VGG11, mean  = 34.97%  std = 0.44%
+evaluate 10 random ResNet18, mean  = 18.83%  std = 0.65%
+
+dataset: CIFAR10
+ipc: 10
+iteration: 2000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 27.16%  std = 0.44%
+evaluate 10 random ConvNet, mean  = 45.11%  std = 0.48%
+evaluate 10 random LeNet, mean  = 21.98%  std = 5.25%
+evaluate 10 random AlexNet, mean  = 17.94%  std = 4.57%
+evaluate 10 random VGG11, mean  = 35.01%  std = 0.50%
+evaluate 10 random ResNet18, mean  = 19.10%  std = 0.93%
+
+dataset: CIFAR10
+ipc: 10
+iteration: 3000
+use_ModelPool: False
+use_Dropout: False
+use_KD: False
+evaluate 10 random MLP, mean  = 27.31%  std = 0.41%
+evaluate 10 random ConvNet, mean  = 45.38%  std = 0.33%
+evaluate 10 random LeNet, mean  = 24.47%  std = 2.07%
+evaluate 10 random AlexNet, mean  = 20.48%  std = 2.07%
+evaluate 10 random VGG11, mean  = 35.33%  std = 0.65%
+evaluate 10 random ResNet18, mean  = 19.30%  std = 0.77%
 

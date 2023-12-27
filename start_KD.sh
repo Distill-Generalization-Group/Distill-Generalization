@@ -1,0 +1,1 @@
+python main.py  --method DC  --dataset CIFAR10  --model ConvNet  --eval_mode my_eval  --ipc 10 --num_exp 1  --num_eval 10  --Iteration 3000 --use_store --cached_img_path result/res_DC_CIFAR10_ConvNet_1ipc_1000.pt --eval_model all
