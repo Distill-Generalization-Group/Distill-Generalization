@@ -37,10 +37,11 @@ def main():
     parser.add_argument('--use_KD', action="store_true", help='whether use knowledge distillation or not')
     parser.add_argument('--temperature', type=float, default=1.5, help='temperature for knowledge distillation')
     parser.add_argument('--alpha', type=float, default=0.5, help='weight factor for knowledge distillation')
-    parser.add_argument('--temperature_decay', type=float, default=1, help='temperature decay factor for knowledge distillation')
+    parser.add_argument('--temperature_decay', type=float, default=0.9, help='temperature decay factor for knowledge distillation')
     parser.add_argument('--use_stored', action="store_true", help='whether use store or not')
     parser.add_argument('--cached_img_path', type=str, default="", help='path to save cached images')
     parser.add_argument('--eval_model', type=str, default="", help='evaluation net type')
+    parser.add_argument('--img_path', type=str, required=True, help='path to save images')
 
     args = parser.parse_args()
     args.outer_loop, args.inner_loop = get_loops(args.ipc)
@@ -78,7 +79,8 @@ def main():
             #plt.title("temperature vs accuracy")
             for index in range(len(eval_model_list)):
                 args.eval_model = eval_model_list[index]
-                tem_list = [0.0, 0.05, 0.1, 0.5, 1.0, 1.5, 2.0, 3.0, 5.0, 7.0, 10.0, 15.0, 20]
+                tem_list = [0.0, 0.05, 0.1, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0, 8.0, 10.0]
+                #tem_list = [0.0, 0.05]
                 #from 1 to len(tem_list)
                 x_list = [i for i in range(1, len(tem_list)+1)]
                 tem_acc_list = []
@@ -101,7 +103,6 @@ def main():
                     label_syn_eval = raw_data['data'][0][1].to(args.device)
                     for _ in tqdm.tqdm(range(args.num_eval)):
                         print("Load synthetic data from: ", args.cached_img_path)
-                        data = torch.load(args.cached_img_path)
                         net_teacher = get_network("ConvNet", channel, num_classes, im_size).to(args.device)
                         net_eval = get_network(args.eval_model, channel, num_classes, im_size).to(args.device) # get a random model
                         it_eval = int(args.cached_img_path.split("_")[-1].split(".")[0])
@@ -114,7 +115,7 @@ def main():
                 ax.set_xticks(x_list)
                 ax.set_xticklabels(tem_list)
                 ax.legend()
-            plt.savefig("img/temperature_vs_accuracy.svg", format='svg',dpi=150)
+            plt.savefig("img/"+args.img_path, format='svg',dpi=150)
             print("final result: \n", model_acc_list)
         return
 

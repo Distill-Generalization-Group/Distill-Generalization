@@ -356,11 +356,16 @@ def epoch(mode, dataloader, net, optimizer, criterion, args, aug, teacher_model=
             kl = nn.KLDivLoss(reduction='batchmean')
             x_log = F.log_softmax(teacher_output, dim=-1)
             y = F.softmax(output, dim=-1)
-            kl_loss = temperature * kl(x_log, y)
+            # kl_loss = temperature * kl(x_log, y)
+            kl_loss = temperature * kl(y, x_log)
             #print("kl_loss: ", kl_loss.item() / temperature)
                 #print("debug: ", x_log, y, kl_loss)
             #print("Ce_loss: ", loss.item())
+            assert(alpha == 0.5)
+            assert(temperature== 0)
+            # loss = loss * (1 - alpha)
             loss = loss * (1 - alpha) + kl_loss * alpha * (temperature**2)
+            loss = loss * 2
             
             #kl_loss = temperature * F.kl_div(output.softmax(dim=-1).log(), teacher_output.softmax(dim=-1), reduction='sum')
             if log:

@@ -1,0 +1,1721 @@
+eval_it_pool:  [1000, 2000, 3000]
+Files already downloaded and verified
+Files already downloaded and verified
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4393
+[2023-12-29 10:05:04] Evaluate_3000: epoch = 0300 train time = 14 s train loss = 0.007468 train acc = 1.0000, test acc = 0.2937
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4487
+[2023-12-29 10:05:15] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007223 train acc = 1.0000, test acc = 0.2971
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4446
+[2023-12-29 10:05:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006345 train acc = 1.0000, test acc = 0.2942
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4409
+[2023-12-29 10:05:36] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006681 train acc = 1.0000, test acc = 0.2981
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.445
+[2023-12-29 10:05:46] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006804 train acc = 1.0000, test acc = 0.3037
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4561
+[2023-12-29 10:05:57] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007283 train acc = 1.0000, test acc = 0.2896
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4478
+[2023-12-29 10:06:08] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006655 train acc = 1.0000, test acc = 0.2939
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4513
+[2023-12-29 10:06:18] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006824 train acc = 1.0000, test acc = 0.2894
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4436
+[2023-12-29 10:06:29] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006865 train acc = 1.0000, test acc = 0.2927
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4392
+[2023-12-29 10:06:39] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006513 train acc = 1.0000, test acc = 0.2923
+Evaluate 10 random MLP, mean = 0.2945 std = 0.0040
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.448
+[2023-12-29 10:06:50] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006381 train acc = 1.0000, test acc = 0.2977
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4501
+[2023-12-29 10:07:00] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006839 train acc = 1.0000, test acc = 0.2946
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 10:07:11] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006661 train acc = 1.0000, test acc = 0.2945
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 10:07:21] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007398 train acc = 1.0000, test acc = 0.2956
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4446
+[2023-12-29 10:07:32] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007263 train acc = 1.0000, test acc = 0.3000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:07:43] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007199 train acc = 1.0000, test acc = 0.2914
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:07:53] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006756 train acc = 1.0000, test acc = 0.2905
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4498
+[2023-12-29 10:08:04] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007115 train acc = 1.0000, test acc = 0.2963
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 10:08:14] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007914 train acc = 1.0000, test acc = 0.2995
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4509
+[2023-12-29 10:08:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007052 train acc = 1.0000, test acc = 0.2974
+Evaluate 10 random MLP, mean = 0.2958 std = 0.0030
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.441
+[2023-12-29 10:08:34] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.007320 train acc = 1.0000, test acc = 0.2858
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4408
+[2023-12-29 10:08:44] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006973 train acc = 1.0000, test acc = 0.2929
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4445
+[2023-12-29 10:08:54] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007019 train acc = 1.0000, test acc = 0.2874
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4447
+[2023-12-29 10:09:04] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007036 train acc = 1.0000, test acc = 0.2915
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4338
+[2023-12-29 10:09:14] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006514 train acc = 1.0000, test acc = 0.2851
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.455
+[2023-12-29 10:09:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006500 train acc = 1.0000, test acc = 0.2960
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4429
+[2023-12-29 10:09:36] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006957 train acc = 1.0000, test acc = 0.3012
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 10:09:46] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006284 train acc = 1.0000, test acc = 0.2976
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4531
+[2023-12-29 10:09:57] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006929 train acc = 1.0000, test acc = 0.2976
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4408
+[2023-12-29 10:10:04] Evaluate_3000: epoch = 0300 train time = 5 s train loss = 0.006803 train acc = 1.0000, test acc = 0.2890
+Evaluate 10 random MLP, mean = 0.2924 std = 0.0053
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:10:14] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006572 train acc = 1.0000, test acc = 0.2878
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4524
+[2023-12-29 10:10:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006933 train acc = 1.0000, test acc = 0.2937
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:10:36] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006651 train acc = 1.0000, test acc = 0.2796
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4382
+[2023-12-29 10:10:47] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007046 train acc = 1.0000, test acc = 0.2790
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:10:57] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006735 train acc = 1.0000, test acc = 0.2927
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4338
+[2023-12-29 10:11:08] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006273 train acc = 1.0000, test acc = 0.2936
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:11:19] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007001 train acc = 1.0000, test acc = 0.2918
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4483
+[2023-12-29 10:11:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006426 train acc = 1.0000, test acc = 0.3037
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4447
+[2023-12-29 10:11:40] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006930 train acc = 1.0000, test acc = 0.2970
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4527
+[2023-12-29 10:11:51] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006551 train acc = 1.0000, test acc = 0.2981
+Evaluate 10 random MLP, mean = 0.2917 std = 0.0074
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4394
+[2023-12-29 10:12:02] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006858 train acc = 1.0000, test acc = 0.2917
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4387
+[2023-12-29 10:12:12] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007233 train acc = 1.0000, test acc = 0.2992
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4501
+[2023-12-29 10:12:23] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007260 train acc = 1.0000, test acc = 0.3070
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 10:12:33] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006912 train acc = 1.0000, test acc = 0.2879
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4402
+[2023-12-29 10:12:43] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007165 train acc = 1.0000, test acc = 0.2939
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4352
+[2023-12-29 10:12:54] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006366 train acc = 1.0000, test acc = 0.2952
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4475
+[2023-12-29 10:13:05] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006843 train acc = 1.0000, test acc = 0.2857
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4527
+[2023-12-29 10:13:15] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007290 train acc = 1.0000, test acc = 0.2914
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4456
+[2023-12-29 10:13:26] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.007593 train acc = 1.0000, test acc = 0.2856
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4484
+[2023-12-29 10:13:37] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007092 train acc = 1.0000, test acc = 0.2895
+Evaluate 10 random MLP, mean = 0.2927 std = 0.0062
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4376
+[2023-12-29 10:13:44] Evaluate_3000: epoch = 0300 train time = 5 s train loss = 0.006743 train acc = 1.0000, test acc = 0.2979
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:13:50] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.006878 train acc = 1.0000, test acc = 0.2916
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4464
+[2023-12-29 10:13:56] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.006849 train acc = 1.0000, test acc = 0.2894
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4426
+[2023-12-29 10:14:03] Evaluate_3000: epoch = 0300 train time = 5 s train loss = 0.006475 train acc = 1.0000, test acc = 0.2961
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4417
+[2023-12-29 10:14:13] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006503 train acc = 1.0000, test acc = 0.2886
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4489
+[2023-12-29 10:14:22] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006724 train acc = 1.0000, test acc = 0.2976
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4401
+[2023-12-29 10:14:33] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006679 train acc = 1.0000, test acc = 0.2992
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4463
+[2023-12-29 10:14:44] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007951 train acc = 1.0000, test acc = 0.2935
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4386
+[2023-12-29 10:14:52] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.007234 train acc = 1.0000, test acc = 0.2846
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4548
+[2023-12-29 10:15:03] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006989 train acc = 1.0000, test acc = 0.2937
+Evaluate 10 random MLP, mean = 0.2932 std = 0.0045
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4502
+[2023-12-29 10:15:14] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006834 train acc = 1.0000, test acc = 0.2995
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 10:15:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006509 train acc = 1.0000, test acc = 0.3007
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.445
+[2023-12-29 10:15:35] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007096 train acc = 1.0000, test acc = 0.3002
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:15:46] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006897 train acc = 1.0000, test acc = 0.2922
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:15:56] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007173 train acc = 1.0000, test acc = 0.2979
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4507
+[2023-12-29 10:16:07] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006888 train acc = 1.0000, test acc = 0.2965
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4446
+[2023-12-29 10:16:18] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007293 train acc = 1.0000, test acc = 0.2943
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4525
+[2023-12-29 10:16:27] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.006808 train acc = 1.0000, test acc = 0.2986
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4451
+[2023-12-29 10:16:37] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006775 train acc = 1.0000, test acc = 0.2940
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.461
+[2023-12-29 10:16:46] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.007123 train acc = 1.0000, test acc = 0.3011
+Evaluate 10 random MLP, mean = 0.2975 std = 0.0030
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4384
+[2023-12-29 10:16:56] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006893 train acc = 1.0000, test acc = 0.2972
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4522
+[2023-12-29 10:17:07] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006533 train acc = 1.0000, test acc = 0.2939
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4427
+[2023-12-29 10:17:17] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.007078 train acc = 1.0000, test acc = 0.2924
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4453
+[2023-12-29 10:17:24] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.006821 train acc = 1.0000, test acc = 0.3060
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4529
+[2023-12-29 10:17:32] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.006754 train acc = 1.0000, test acc = 0.3067
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4386
+[2023-12-29 10:17:43] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006876 train acc = 1.0000, test acc = 0.3011
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4494
+[2023-12-29 10:17:54] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006842 train acc = 1.0000, test acc = 0.2948
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 10:18:05] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006988 train acc = 1.0000, test acc = 0.2951
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4509
+[2023-12-29 10:18:15] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006467 train acc = 1.0000, test acc = 0.3045
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4427
+[2023-12-29 10:18:26] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006804 train acc = 1.0000, test acc = 0.2959
+Evaluate 10 random MLP, mean = 0.2988 std = 0.0051
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4512
+[2023-12-29 10:18:37] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006163 train acc = 1.0000, test acc = 0.2894
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:18:47] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006026 train acc = 1.0000, test acc = 0.3013
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 10:18:54] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.005977 train acc = 1.0000, test acc = 0.2959
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4485
+[2023-12-29 10:19:00] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.006139 train acc = 1.0000, test acc = 0.3034
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:19:10] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006466 train acc = 1.0000, test acc = 0.2931
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4438
+[2023-12-29 10:19:21] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006583 train acc = 1.0000, test acc = 0.2988
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4528
+[2023-12-29 10:19:28] Evaluate_3000: epoch = 0300 train time = 5 s train loss = 0.006695 train acc = 1.0000, test acc = 0.2862
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:19:38] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006138 train acc = 1.0000, test acc = 0.2960
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.444
+[2023-12-29 10:19:47] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.006183 train acc = 1.0000, test acc = 0.3065
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4428
+[2023-12-29 10:19:58] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.006148 train acc = 1.0000, test acc = 0.2948
+Evaluate 10 random MLP, mean = 0.2965 std = 0.0059
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.458
+[2023-12-29 10:20:08] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.002405 train acc = 1.0000, test acc = 0.2926
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4502
+[2023-12-29 10:20:19] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.003098 train acc = 1.0000, test acc = 0.2927
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4566
+[2023-12-29 10:20:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.002097 train acc = 1.0000, test acc = 0.2993
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4437
+[2023-12-29 10:20:41] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.002027 train acc = 1.0000, test acc = 0.2890
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4507
+[2023-12-29 10:20:47] Evaluate_3000: epoch = 0300 train time = 5 s train loss = 0.002642 train acc = 1.0000, test acc = 0.3059
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4402
+[2023-12-29 10:20:54] Evaluate_3000: epoch = 0300 train time = 4 s train loss = 0.002851 train acc = 1.0000, test acc = 0.2950
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4464
+[2023-12-29 10:21:02] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.002088 train acc = 1.0000, test acc = 0.3021
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 10:21:13] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.002108 train acc = 1.0000, test acc = 0.2951
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4499
+[2023-12-29 10:21:23] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.002408 train acc = 1.0000, test acc = 0.2914
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4407
+[2023-12-29 10:21:34] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.002672 train acc = 1.0000, test acc = 0.2966
+Evaluate 10 random MLP, mean = 0.2960 std = 0.0049
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:21:45] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4491
+[2023-12-29 10:21:52] Evaluate_3000: epoch = 0300 train time = 6 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4559
+[2023-12-29 10:22:02] Evaluate_3000: epoch = 0300 train time = 7 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4458
+[2023-12-29 10:22:10] Evaluate_3000: epoch = 0300 train time = 6 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4419
+[2023-12-29 10:22:17] Evaluate_3000: epoch = 0300 train time = 4 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:22:26] Evaluate_3000: epoch = 0300 train time = 7 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4521
+[2023-12-29 10:22:37] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 10:22:48] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4509
+[2023-12-29 10:22:59] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4452
+[2023-12-29 10:23:09] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random MLP, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4394
+[2023-12-29 10:23:20] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 10:23:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4512
+[2023-12-29 10:23:41] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4452
+[2023-12-29 10:23:52] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4535
+[2023-12-29 10:24:03] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4471
+[2023-12-29 10:24:13] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4428
+[2023-12-29 10:24:22] Evaluate_3000: epoch = 0300 train time = 7 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4383
+[2023-12-29 10:24:32] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:24:43] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.446
+[2023-12-29 10:24:51] Evaluate_3000: epoch = 0300 train time = 6 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random MLP, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4546
+[2023-12-29 10:25:02] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:25:12] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4492
+[2023-12-29 10:25:23] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4425
+[2023-12-29 10:25:33] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4442
+[2023-12-29 10:25:43] Evaluate_3000: epoch = 0300 train time = 7 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4407
+[2023-12-29 10:25:53] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4465
+[2023-12-29 10:26:04] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4458
+[2023-12-29 10:26:15] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.439
+[2023-12-29 10:26:25] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4471
+[2023-12-29 10:26:35] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random MLP, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.45
+[2023-12-29 10:26:46] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009303 train acc = 1.0000, test acc = 0.4458
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4474
+[2023-12-29 10:26:58] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009290 train acc = 1.0000, test acc = 0.4332
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4451
+[2023-12-29 10:27:05] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009105 train acc = 1.0000, test acc = 0.4552
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4524
+[2023-12-29 10:27:16] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.008920 train acc = 1.0000, test acc = 0.4467
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4496
+[2023-12-29 10:27:29] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009499 train acc = 1.0000, test acc = 0.4409
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.454
+[2023-12-29 10:27:41] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008777 train acc = 1.0000, test acc = 0.4347
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4364
+[2023-12-29 10:27:53] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008876 train acc = 1.0000, test acc = 0.4455
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4436
+[2023-12-29 10:28:06] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009294 train acc = 1.0000, test acc = 0.4415
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.455
+[2023-12-29 10:28:17] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009058 train acc = 1.0000, test acc = 0.4387
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4462
+[2023-12-29 10:28:28] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009155 train acc = 1.0000, test acc = 0.4396
+Evaluate 10 random ConvNet, mean = 0.4422 std = 0.0061
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4478
+[2023-12-29 10:28:41] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.008908 train acc = 1.0000, test acc = 0.4449
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4378
+[2023-12-29 10:28:53] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008981 train acc = 1.0000, test acc = 0.4333
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4398
+[2023-12-29 10:29:05] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009289 train acc = 1.0000, test acc = 0.4379
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 10:29:17] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.008658 train acc = 1.0000, test acc = 0.4412
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.451
+[2023-12-29 10:29:30] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008842 train acc = 1.0000, test acc = 0.4535
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4484
+[2023-12-29 10:29:42] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009132 train acc = 1.0000, test acc = 0.4437
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4516
+[2023-12-29 10:29:54] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009274 train acc = 1.0000, test acc = 0.4465
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4525
+[2023-12-29 10:30:07] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008811 train acc = 1.0000, test acc = 0.4445
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4473
+[2023-12-29 10:30:19] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008926 train acc = 1.0000, test acc = 0.4433
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4463
+[2023-12-29 10:30:32] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009086 train acc = 1.0000, test acc = 0.4423
+Evaluate 10 random ConvNet, mean = 0.4431 std = 0.0050
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4516
+[2023-12-29 10:30:44] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009373 train acc = 1.0000, test acc = 0.4383
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4497
+[2023-12-29 10:30:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008973 train acc = 1.0000, test acc = 0.4414
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 10:31:09] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008759 train acc = 1.0000, test acc = 0.4432
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:31:22] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008956 train acc = 1.0000, test acc = 0.4497
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4357
+[2023-12-29 10:31:31] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.008694 train acc = 1.0000, test acc = 0.4401
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4402
+[2023-12-29 10:31:39] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009116 train acc = 1.0000, test acc = 0.4424
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.44
+[2023-12-29 10:31:48] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009380 train acc = 1.0000, test acc = 0.4411
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 10:32:00] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008844 train acc = 1.0000, test acc = 0.4509
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.447
+[2023-12-29 10:32:13] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008559 train acc = 1.0000, test acc = 0.4421
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4553
+[2023-12-29 10:32:25] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.008820 train acc = 1.0000, test acc = 0.4515
+Evaluate 10 random ConvNet, mean = 0.4441 std = 0.0045
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 10:32:36] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.008806 train acc = 1.0000, test acc = 0.4371
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4321
+[2023-12-29 10:32:48] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009340 train acc = 1.0000, test acc = 0.4452
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4433
+[2023-12-29 10:32:58] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.009313 train acc = 1.0000, test acc = 0.4341
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4469
+[2023-12-29 10:33:11] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009427 train acc = 1.0000, test acc = 0.4326
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4373
+[2023-12-29 10:33:23] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008828 train acc = 1.0000, test acc = 0.4460
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4387
+[2023-12-29 10:33:36] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008912 train acc = 1.0000, test acc = 0.4445
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4554
+[2023-12-29 10:33:48] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008856 train acc = 1.0000, test acc = 0.4429
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4478
+[2023-12-29 10:34:00] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009190 train acc = 1.0000, test acc = 0.4460
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4513
+[2023-12-29 10:34:13] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008979 train acc = 1.0000, test acc = 0.4355
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4462
+[2023-12-29 10:34:26] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008969 train acc = 1.0000, test acc = 0.4386
+Evaluate 10 random ConvNet, mean = 0.4403 std = 0.0050
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4415
+[2023-12-29 10:34:38] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008912 train acc = 1.0000, test acc = 0.4467
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4445
+[2023-12-29 10:34:46] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009289 train acc = 1.0000, test acc = 0.4423
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.446
+[2023-12-29 10:34:58] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008688 train acc = 1.0000, test acc = 0.4456
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4476
+[2023-12-29 10:35:11] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008809 train acc = 1.0000, test acc = 0.4478
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4496
+[2023-12-29 10:35:23] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008773 train acc = 1.0000, test acc = 0.4447
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4409
+[2023-12-29 10:35:35] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009469 train acc = 1.0000, test acc = 0.4337
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4485
+[2023-12-29 10:35:48] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.009097 train acc = 1.0000, test acc = 0.4503
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4424
+[2023-12-29 10:36:01] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.009164 train acc = 1.0000, test acc = 0.4484
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4507
+[2023-12-29 10:36:13] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.008893 train acc = 1.0000, test acc = 0.4427
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4396
+[2023-12-29 10:36:26] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.009132 train acc = 1.0000, test acc = 0.4460
+Evaluate 10 random ConvNet, mean = 0.4448 std = 0.0044
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4524
+[2023-12-29 10:36:34] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009361 train acc = 1.0000, test acc = 0.4411
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.448
+[2023-12-29 10:36:43] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.008835 train acc = 1.0000, test acc = 0.4353
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4379
+[2023-12-29 10:36:55] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009306 train acc = 1.0000, test acc = 0.4496
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4487
+[2023-12-29 10:37:07] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.008869 train acc = 1.0000, test acc = 0.4422
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 10:37:19] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009551 train acc = 1.0000, test acc = 0.4403
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.449
+[2023-12-29 10:37:32] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009621 train acc = 1.0000, test acc = 0.4395
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4431
+[2023-12-29 10:37:40] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.008878 train acc = 1.0000, test acc = 0.4476
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4412
+[2023-12-29 10:37:49] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.008879 train acc = 1.0000, test acc = 0.4359
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4559
+[2023-12-29 10:38:02] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.009423 train acc = 1.0000, test acc = 0.4412
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4411
+[2023-12-29 10:38:14] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009025 train acc = 1.0000, test acc = 0.4465
+Evaluate 10 random ConvNet, mean = 0.4419 std = 0.0045
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4406
+[2023-12-29 10:38:25] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009745 train acc = 1.0000, test acc = 0.4355
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4425
+[2023-12-29 10:38:37] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009301 train acc = 1.0000, test acc = 0.4365
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 10:38:45] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009504 train acc = 1.0000, test acc = 0.4447
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4536
+[2023-12-29 10:38:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009458 train acc = 1.0000, test acc = 0.4427
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4425
+[2023-12-29 10:39:10] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.008943 train acc = 1.0000, test acc = 0.4474
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4554
+[2023-12-29 10:39:21] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.009842 train acc = 1.0000, test acc = 0.4239
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4397
+[2023-12-29 10:39:29] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009528 train acc = 1.0000, test acc = 0.4383
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4563
+[2023-12-29 10:39:42] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009667 train acc = 1.0000, test acc = 0.4324
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4419
+[2023-12-29 10:39:55] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009206 train acc = 1.0000, test acc = 0.4424
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4474
+[2023-12-29 10:40:07] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009326 train acc = 1.0000, test acc = 0.4417
+Evaluate 10 random ConvNet, mean = 0.4386 std = 0.0065
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4399
+[2023-12-29 10:40:20] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010480 train acc = 1.0000, test acc = 0.4347
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4441
+[2023-12-29 10:40:32] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010210 train acc = 1.0000, test acc = 0.4343
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 10:40:44] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010105 train acc = 1.0000, test acc = 0.4339
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4435
+[2023-12-29 10:40:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010120 train acc = 1.0000, test acc = 0.4230
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4555
+[2023-12-29 10:41:10] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009786 train acc = 1.0000, test acc = 0.4326
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4487
+[2023-12-29 10:41:17] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.009933 train acc = 1.0000, test acc = 0.4297
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4504
+[2023-12-29 10:41:30] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010626 train acc = 1.0000, test acc = 0.4291
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4388
+[2023-12-29 10:41:43] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.011061 train acc = 1.0000, test acc = 0.4370
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4441
+[2023-12-29 10:41:55] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010081 train acc = 1.0000, test acc = 0.4395
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:42:08] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009992 train acc = 1.0000, test acc = 0.4292
+Evaluate 10 random ConvNet, mean = 0.4323 std = 0.0045
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4384
+[2023-12-29 10:42:20] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010452 train acc = 1.0000, test acc = 0.4211
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4518
+[2023-12-29 10:42:32] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.011681 train acc = 1.0000, test acc = 0.4093
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4488
+[2023-12-29 10:42:44] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.011004 train acc = 1.0000, test acc = 0.4160
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4394
+[2023-12-29 10:42:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.012251 train acc = 1.0000, test acc = 0.4163
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4453
+[2023-12-29 10:43:05] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.012431 train acc = 1.0000, test acc = 0.4156
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.449
+[2023-12-29 10:43:16] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.010106 train acc = 1.0000, test acc = 0.4228
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4411
+[2023-12-29 10:43:28] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009423 train acc = 1.0000, test acc = 0.4168
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 10:43:41] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.011329 train acc = 1.0000, test acc = 0.4131
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4536
+[2023-12-29 10:43:54] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010046 train acc = 1.0000, test acc = 0.4223
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4563
+[2023-12-29 10:44:06] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.009456 train acc = 1.0000, test acc = 0.4218
+Evaluate 10 random ConvNet, mean = 0.4175 std = 0.0042
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4504
+[2023-12-29 10:44:18] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.104044 train acc = 1.0000, test acc = 0.3437
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4444
+[2023-12-29 10:44:31] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.112848 train acc = 1.0000, test acc = 0.3334
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4459
+[2023-12-29 10:44:44] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.132130 train acc = 1.0000, test acc = 0.3337
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4511
+[2023-12-29 10:44:56] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4436
+[2023-12-29 10:45:09] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.103607 train acc = 1.0000, test acc = 0.3553
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4525
+[2023-12-29 10:45:18] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.061596 train acc = 1.0000, test acc = 0.3589
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4581
+[2023-12-29 10:45:28] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.260669 train acc = 0.9900, test acc = 0.3140
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 10:45:36] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.113323 train acc = 1.0000, test acc = 0.3259
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4476
+[2023-12-29 10:45:44] Evaluate_3000: epoch = 0300 train time = 6 s train loss = 0.169247 train acc = 1.0000, test acc = 0.3287
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4495
+[2023-12-29 10:45:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.063472 train acc = 1.0000, test acc = 0.3669
+Evaluate 10 random ConvNet, mean = 0.3160 std = 0.0737
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4432
+[2023-12-29 10:46:09] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.448
+[2023-12-29 10:46:21] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4602
+[2023-12-29 10:46:32] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4381
+[2023-12-29 10:46:45] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4403
+[2023-12-29 10:46:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4448
+[2023-12-29 10:47:10] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 10:47:22] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 10:47:34] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4406
+[2023-12-29 10:47:44] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4418
+[2023-12-29 10:47:54] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random ConvNet, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4451
+[2023-12-29 10:48:07] Evaluate_3000: epoch = 0300 train time = 11 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4409
+[2023-12-29 10:48:20] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4491
+[2023-12-29 10:48:32] Evaluate_3000: epoch = 0300 train time = 11 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4456
+[2023-12-29 10:48:44] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4495
+[2023-12-29 10:48:57] Evaluate_3000: epoch = 0300 train time = 11 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4536
+[2023-12-29 10:49:10] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4477
+[2023-12-29 10:49:22] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4567
+[2023-12-29 10:49:35] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4437
+[2023-12-29 10:49:47] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4501
+[2023-12-29 10:49:57] Evaluate_3000: epoch = 0300 train time = 7 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random ConvNet, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4437
+[2023-12-29 10:50:05] Evaluate_3000: epoch = 0300 train time = 6 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4444
+[2023-12-29 10:50:18] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4588
+[2023-12-29 10:50:30] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4434
+[2023-12-29 10:50:42] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4487
+[2023-12-29 10:50:54] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.446
+[2023-12-29 10:51:06] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4535
+[2023-12-29 10:51:18] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4474
+[2023-12-29 10:51:31] Evaluate_3000: epoch = 0300 train time = 11 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 10:51:43] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4478
+[2023-12-29 10:51:56] Evaluate_3000: epoch = 0300 train time = 11 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random ConvNet, mean = 0.1000 std = 0.0000
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4439
+[2023-12-29 10:52:07] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.122198 train acc = 0.9700, test acc = 0.2184
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4484
+[2023-12-29 10:52:18] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.285970 train acc = 0.9300, test acc = 0.2228
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4438
+[2023-12-29 10:52:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.051657 train acc = 1.0000, test acc = 0.2435
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4538
+[2023-12-29 10:52:39] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.683725 train acc = 0.4800, test acc = 0.2528
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4477
+[2023-12-29 10:52:51] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.093739 train acc = 0.9900, test acc = 0.2162
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4509
+[2023-12-29 10:53:02] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.246204 train acc = 0.9400, test acc = 0.2285
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4427
+[2023-12-29 10:53:14] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.102687 train acc = 1.0000, test acc = 0.2378
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4499
+[2023-12-29 10:53:26] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.097933 train acc = 1.0000, test acc = 0.2485
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4572
+[2023-12-29 10:53:37] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.606471 train acc = 0.6500, test acc = 0.2417
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 10:53:49] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.571386 train acc = 0.6900, test acc = 0.2681
+Evaluate 10 random LeNet, mean = 0.2378 std = 0.0157
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4521
+[2023-12-29 10:54:01] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 1.079685 train acc = 0.2800, test acc = 0.2046
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4392
+[2023-12-29 10:54:13] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.352427 train acc = 0.8100, test acc = 0.2489
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.451
+[2023-12-29 10:54:24] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.346210 train acc = 0.9000, test acc = 0.2345
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4497
+[2023-12-29 10:54:36] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.403859 train acc = 0.8300, test acc = 0.2362
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 10:54:48] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.148599 train acc = 0.9900, test acc = 0.2298
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:55:00] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.064286 train acc = 1.0000, test acc = 0.2482
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4483
+[2023-12-29 10:55:11] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.077215 train acc = 1.0000, test acc = 0.2294
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 10:55:23] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.209758 train acc = 0.9600, test acc = 0.2275
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 10:55:35] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.265367 train acc = 0.8800, test acc = 0.2546
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4473
+[2023-12-29 10:55:46] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.198489 train acc = 0.9800, test acc = 0.2343
+Evaluate 10 random LeNet, mean = 0.2348 std = 0.0134
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4376
+[2023-12-29 10:55:58] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.747662 train acc = 0.5100, test acc = 0.2347
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4514
+[2023-12-29 10:56:10] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.472753 train acc = 0.7800, test acc = 0.2362
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4429
+[2023-12-29 10:56:22] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.022077 train acc = 1.0000, test acc = 0.2398
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4437
+[2023-12-29 10:56:33] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.189618 train acc = 0.9700, test acc = 0.2409
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 10:56:45] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.128275 train acc = 0.9900, test acc = 0.2249
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4461
+[2023-12-29 10:56:57] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.550020 train acc = 0.7100, test acc = 0.2349
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4519
+[2023-12-29 10:57:08] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.431413 train acc = 0.7700, test acc = 0.2311
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4452
+[2023-12-29 10:57:20] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.168183 train acc = 0.9700, test acc = 0.2127
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.45
+[2023-12-29 10:57:29] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.240162 train acc = 0.9200, test acc = 0.2470
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4451
+[2023-12-29 10:57:39] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.357648 train acc = 0.8500, test acc = 0.2200
+Evaluate 10 random LeNet, mean = 0.2322 std = 0.0098
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4495
+[2023-12-29 10:57:50] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.410649 train acc = 0.8200, test acc = 0.2460
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4538
+[2023-12-29 10:58:01] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.145977 train acc = 0.9800, test acc = 0.2573
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4429
+[2023-12-29 10:58:13] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.160763 train acc = 0.9700, test acc = 0.2482
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4544
+[2023-12-29 10:58:25] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.257645 train acc = 0.9500, test acc = 0.2603
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:58:37] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.840453 train acc = 0.4400, test acc = 0.2811
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4474
+[2023-12-29 10:58:48] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.175355 train acc = 0.9700, test acc = 0.2343
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4489
+[2023-12-29 10:59:00] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.564826 train acc = 0.6600, test acc = 0.2578
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4419
+[2023-12-29 10:59:11] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.036788 train acc = 1.0000, test acc = 0.2357
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4458
+[2023-12-29 10:59:22] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.211666 train acc = 0.9700, test acc = 0.2498
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4471
+[2023-12-29 10:59:33] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.630338 train acc = 0.5700, test acc = 0.2321
+Evaluate 10 random LeNet, mean = 0.2503 std = 0.0141
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4468
+[2023-12-29 10:59:45] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.572219 train acc = 0.6900, test acc = 0.2281
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4421
+[2023-12-29 10:59:57] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.221213 train acc = 0.9400, test acc = 0.2549
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 11:00:07] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.211186 train acc = 0.9800, test acc = 0.2479
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4451
+[2023-12-29 11:00:16] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.016186 train acc = 1.0000, test acc = 0.2343
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4498
+[2023-12-29 11:00:27] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.039111 train acc = 1.0000, test acc = 0.2372
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4486
+[2023-12-29 11:00:38] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.424386 train acc = 0.7400, test acc = 0.2550
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 11:00:50] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.044063 train acc = 0.9900, test acc = 0.2316
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4522
+[2023-12-29 11:01:00] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.049800 train acc = 1.0000, test acc = 0.2385
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4474
+[2023-12-29 11:01:09] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.211177 train acc = 0.9900, test acc = 0.2359
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.446
+[2023-12-29 11:01:21] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.400067 train acc = 0.9100, test acc = 0.2613
+Evaluate 10 random LeNet, mean = 0.2425 std = 0.0108
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4486
+[2023-12-29 11:01:33] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.080603 train acc = 0.9900, test acc = 0.2270
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.449
+[2023-12-29 11:01:44] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.373022 train acc = 0.8600, test acc = 0.2330
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4431
+[2023-12-29 11:01:56] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.530877 train acc = 0.6500, test acc = 0.2482
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4422
+[2023-12-29 11:02:08] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.420297 train acc = 0.8600, test acc = 0.2477
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 11:02:19] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.336003 train acc = 0.8900, test acc = 0.2286
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4475
+[2023-12-29 11:02:31] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.431719 train acc = 0.7400, test acc = 0.2462
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 11:02:42] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.138414 train acc = 0.9800, test acc = 0.2483
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 11:02:52] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.138244 train acc = 0.9800, test acc = 0.2332
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 11:03:03] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.720915 train acc = 0.5700, test acc = 0.2548
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 11:03:15] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.134827 train acc = 0.9900, test acc = 0.2516
+Evaluate 10 random LeNet, mean = 0.2419 std = 0.0097
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4502
+[2023-12-29 11:03:27] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.144897 train acc = 0.9700, test acc = 0.2200
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4442
+[2023-12-29 11:03:38] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.203999 train acc = 0.9700, test acc = 0.2585
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4392
+[2023-12-29 11:03:50] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.083733 train acc = 1.0000, test acc = 0.2383
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 11:04:01] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.096004 train acc = 0.9900, test acc = 0.2328
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4448
+[2023-12-29 11:04:11] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.216618 train acc = 0.9700, test acc = 0.2362
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.449
+[2023-12-29 11:04:23] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.066762 train acc = 1.0000, test acc = 0.2452
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4504
+[2023-12-29 11:04:34] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.048638 train acc = 1.0000, test acc = 0.2379
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4488
+[2023-12-29 11:04:45] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.266322 train acc = 0.9200, test acc = 0.2378
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 11:04:56] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.320481 train acc = 0.9100, test acc = 0.2647
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4481
+[2023-12-29 11:05:07] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.883576 train acc = 0.3300, test acc = 0.2381
+Evaluate 10 random LeNet, mean = 0.2410 std = 0.0121
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 11:05:18] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.077661 train acc = 1.0000, test acc = 0.2322
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4441
+[2023-12-29 11:05:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.209931 train acc = 0.9600, test acc = 0.2315
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4456
+[2023-12-29 11:05:41] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.015786 train acc = 1.0000, test acc = 0.2357
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4453
+[2023-12-29 11:05:53] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.246916 train acc = 0.9300, test acc = 0.2399
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4452
+[2023-12-29 11:06:05] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.067389 train acc = 1.0000, test acc = 0.2217
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4433
+[2023-12-29 11:06:16] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.083614 train acc = 1.0000, test acc = 0.2298
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4506
+[2023-12-29 11:06:26] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.187617 train acc = 0.9700, test acc = 0.2596
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4432
+[2023-12-29 11:06:36] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.028593 train acc = 1.0000, test acc = 0.2296
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.447
+[2023-12-29 11:06:48] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.018890 train acc = 1.0000, test acc = 0.2313
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4408
+[2023-12-29 11:06:57] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.215977 train acc = 0.9700, test acc = 0.2390
+Evaluate 10 random LeNet, mean = 0.2350 std = 0.0096
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.453
+[2023-12-29 11:07:08] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.013117 train acc = 1.0000, test acc = 0.2209
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4338
+[2023-12-29 11:07:18] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.046844 train acc = 1.0000, test acc = 0.2402
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4446
+[2023-12-29 11:07:28] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.023716 train acc = 1.0000, test acc = 0.2323
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4431
+[2023-12-29 11:07:39] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.082670 train acc = 1.0000, test acc = 0.2628
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4392
+[2023-12-29 11:07:50] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.109090 train acc = 0.9900, test acc = 0.2436
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4428
+[2023-12-29 11:08:01] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.042542 train acc = 1.0000, test acc = 0.2247
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4496
+[2023-12-29 11:08:11] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.022099 train acc = 1.0000, test acc = 0.2304
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4489
+[2023-12-29 11:08:23] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.056212 train acc = 1.0000, test acc = 0.2275
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 11:08:34] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.075842 train acc = 1.0000, test acc = 0.2323
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 11:08:46] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.072121 train acc = 1.0000, test acc = 0.2213
+Evaluate 10 random LeNet, mean = 0.2336 std = 0.0120
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4401
+[2023-12-29 11:08:57] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.046912 train acc = 1.0000, test acc = 0.2350
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4417
+[2023-12-29 11:09:08] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.005513 train acc = 1.0000, test acc = 0.2347
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4535
+[2023-12-29 11:09:18] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.045642 train acc = 1.0000, test acc = 0.2422
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4477
+[2023-12-29 11:09:30] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.007264 train acc = 1.0000, test acc = 0.2213
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 11:09:42] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.019289 train acc = 1.0000, test acc = 0.2653
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 11:09:53] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.202731 train acc = 0.9600, test acc = 0.2299
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4514
+[2023-12-29 11:10:05] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.004575 train acc = 1.0000, test acc = 0.2265
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4375
+[2023-12-29 11:10:15] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.009540 train acc = 1.0000, test acc = 0.2423
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4512
+[2023-12-29 11:10:27] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.010798 train acc = 1.0000, test acc = 0.2386
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4497
+[2023-12-29 11:10:37] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.006478 train acc = 1.0000, test acc = 0.2303
+Evaluate 10 random LeNet, mean = 0.2366 std = 0.0115
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4448
+[2023-12-29 11:10:49] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.006214 train acc = 1.0000, test acc = 0.2641
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4421
+[2023-12-29 11:10:59] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4533
+[2023-12-29 11:11:09] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.069682 train acc = 1.0000, test acc = 0.2259
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4534
+[2023-12-29 11:11:19] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4421
+[2023-12-29 11:11:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4496
+[2023-12-29 11:11:42] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.018437 train acc = 1.0000, test acc = 0.2461
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4472
+[2023-12-29 11:11:52] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4544
+[2023-12-29 11:12:01] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.010213 train acc = 1.0000, test acc = 0.2741
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4506
+[2023-12-29 11:12:11] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4522
+[2023-12-29 11:12:23] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.068879 train acc = 0.9900, test acc = 0.2442
+Evaluate 10 random LeNet, mean = 0.1754 std = 0.0764
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4495
+[2023-12-29 11:12:33] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 11:12:44] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 1.168560 train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4427
+[2023-12-29 11:12:56] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4391
+[2023-12-29 11:13:07] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4445
+[2023-12-29 11:13:19] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4536
+[2023-12-29 11:13:30] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4368
+[2023-12-29 11:13:42] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4393
+[2023-12-29 11:13:53] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 1.200910 train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4445
+[2023-12-29 11:14:05] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 1.195241 train acc = 0.1000, test acc = 0.0997
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4542
+[2023-12-29 11:14:16] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random LeNet, mean = 0.1000 std = 0.0001
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 11:14:26] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4624
+[2023-12-29 11:14:38] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4391
+[2023-12-29 11:14:48] Evaluate_3000: epoch = 0300 train time = 8 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4528
+[2023-12-29 11:14:57] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 1.151259 train acc = 0.1100, test acc = 0.0988
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.442
+[2023-12-29 11:15:09] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4437
+[2023-12-29 11:15:20] Evaluate_3000: epoch = 0300 train time = 9 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4488
+[2023-12-29 11:15:31] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 1.153103 train acc = 0.1000, test acc = 0.0997
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4456
+[2023-12-29 11:15:42] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 1.155937 train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4443
+[2023-12-29 11:15:53] Evaluate_3000: epoch = 0300 train time = 10 s train loss = nan train acc = 0.1000, test acc = 0.1000
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4415
+[2023-12-29 11:16:04] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 1.353689 train acc = 0.1000, test acc = 0.1000
+Evaluate 10 random LeNet, mean = 0.0998 std = 0.0004
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4502
+[2023-12-29 11:16:17] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.567729 train acc = 0.6300, test acc = 0.2305
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4469
+[2023-12-29 11:16:29] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.783818 train acc = 0.4300, test acc = 0.2316
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4462
+[2023-12-29 11:16:41] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.779147 train acc = 0.3900, test acc = 0.2441
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4495
+[2023-12-29 11:16:54] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 1.056061 train acc = 0.2600, test acc = 0.2229
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4428
+[2023-12-29 11:17:06] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.632323 train acc = 0.5200, test acc = 0.2306
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4425
+[2023-12-29 11:17:16] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.961515 train acc = 0.2900, test acc = 0.2520
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4403
+[2023-12-29 11:17:26] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.995886 train acc = 0.2800, test acc = 0.2409
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4507
+[2023-12-29 11:17:39] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.463691 train acc = 0.7400, test acc = 0.2433
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4464
+[2023-12-29 11:17:52] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.446181 train acc = 0.7600, test acc = 0.2442
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4429
+[2023-12-29 11:18:05] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.797348 train acc = 0.3700, test acc = 0.2364
+Evaluate 10 random AlexNet, mean = 0.2377 std = 0.0083
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4457
+[2023-12-29 11:18:18] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.420732 train acc = 0.8200, test acc = 0.2309
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4427
+[2023-12-29 11:18:29] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 1.026152 train acc = 0.2600, test acc = 0.2294
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4453
+[2023-12-29 11:18:42] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.465865 train acc = 0.7500, test acc = 0.2530
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4415
+[2023-12-29 11:18:55] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.860122 train acc = 0.3600, test acc = 0.2642
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4492
+[2023-12-29 11:19:05] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.700205 train acc = 0.4900, test acc = 0.2536
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.442
+[2023-12-29 11:19:16] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.046676 train acc = 1.0000, test acc = 0.2370
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4399
+[2023-12-29 11:19:28] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.543229 train acc = 0.6800, test acc = 0.2280
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4421
+[2023-12-29 11:19:40] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.956551 train acc = 0.3300, test acc = 0.2419
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4418
+[2023-12-29 11:19:52] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.609918 train acc = 0.6400, test acc = 0.2420
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4449
+[2023-12-29 11:20:05] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 1.051744 train acc = 0.2300, test acc = 0.2217
+Evaluate 10 random AlexNet, mean = 0.2402 std = 0.0128
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.458
+[2023-12-29 11:20:17] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.991727 train acc = 0.2800, test acc = 0.2527
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4511
+[2023-12-29 11:20:30] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.836699 train acc = 0.3300, test acc = 0.2125
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.441
+[2023-12-29 11:20:43] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.473170 train acc = 0.7500, test acc = 0.2368
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4342
+[2023-12-29 11:20:56] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.731786 train acc = 0.4700, test acc = 0.2355
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4414
+[2023-12-29 11:21:09] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.936357 train acc = 0.3300, test acc = 0.2392
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4392
+[2023-12-29 11:21:21] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.934405 train acc = 0.3100, test acc = 0.2315
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4512
+[2023-12-29 11:21:35] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.837077 train acc = 0.3900, test acc = 0.2575
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4466
+[2023-12-29 11:21:47] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.784598 train acc = 0.4200, test acc = 0.2302
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4454
+[2023-12-29 11:21:58] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.774262 train acc = 0.4200, test acc = 0.2312
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 11:22:11] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.874477 train acc = 0.3700, test acc = 0.2346
+Evaluate 10 random AlexNet, mean = 0.2362 std = 0.0118
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4459
+[2023-12-29 11:22:24] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.906337 train acc = 0.3100, test acc = 0.2174
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4504
+[2023-12-29 11:22:36] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.128770 train acc = 1.0000, test acc = 0.2247
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4501
+[2023-12-29 11:22:50] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.750098 train acc = 0.4200, test acc = 0.2233
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4417
+[2023-12-29 11:23:03] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.745488 train acc = 0.3800, test acc = 0.2284
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4493
+[2023-12-29 11:23:15] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 1.012958 train acc = 0.2700, test acc = 0.2288
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4453
+[2023-12-29 11:23:28] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.857839 train acc = 0.3700, test acc = 0.2594
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4476
+[2023-12-29 11:23:41] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.779505 train acc = 0.4000, test acc = 0.2651
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4403
+[2023-12-29 11:23:52] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.066551 train acc = 1.0000, test acc = 0.2451
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4381
+[2023-12-29 11:24:03] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.458758 train acc = 0.7600, test acc = 0.2519
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4432
+[2023-12-29 11:24:16] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.050366 train acc = 1.0000, test acc = 0.2246
+Evaluate 10 random AlexNet, mean = 0.2369 std = 0.0161
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4471
+[2023-12-29 11:24:29] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.467312 train acc = 0.7400, test acc = 0.2158
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 11:24:42] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.704137 train acc = 0.4900, test acc = 0.2430
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4467
+[2023-12-29 11:24:54] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 1.088724 train acc = 0.1700, test acc = 0.1829
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4365
+[2023-12-29 11:25:07] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.634222 train acc = 0.6000, test acc = 0.2727
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.45
+[2023-12-29 11:25:20] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.750770 train acc = 0.4200, test acc = 0.2292
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4418
+[2023-12-29 11:25:33] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.051370 train acc = 1.0000, test acc = 0.2448
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4471
+[2023-12-29 11:25:42] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.665755 train acc = 0.5300, test acc = 0.2204
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4426
+[2023-12-29 11:25:55] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.698153 train acc = 0.4900, test acc = 0.2292
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4587
+[2023-12-29 11:26:07] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.273465 train acc = 0.9100, test acc = 0.2355
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4425
+[2023-12-29 11:26:20] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.196978 train acc = 0.9400, test acc = 0.2465
+Evaluate 10 random AlexNet, mean = 0.2320 std = 0.0223
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4484
+[2023-12-29 11:26:33] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.876189 train acc = 0.3600, test acc = 0.2413
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4434
+[2023-12-29 11:26:46] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.802239 train acc = 0.4000, test acc = 0.2394
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 11:26:59] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.485207 train acc = 0.7200, test acc = 0.2214
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.445
+[2023-12-29 11:27:12] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.475255 train acc = 0.7200, test acc = 0.2459
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4463
+[2023-12-29 11:27:25] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 1.107694 train acc = 0.2300, test acc = 0.2213
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4492
+[2023-12-29 11:27:38] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.711073 train acc = 0.5300, test acc = 0.2731
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.447
+[2023-12-29 11:27:51] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.147682 train acc = 0.9800, test acc = 0.2284
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.447
+[2023-12-29 11:28:01] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.224145 train acc = 0.9200, test acc = 0.2281
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4469
+[2023-12-29 11:28:14] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.279522 train acc = 0.9000, test acc = 0.2339
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4464
+[2023-12-29 11:28:23] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.527192 train acc = 0.6700, test acc = 0.2208
+Evaluate 10 random AlexNet, mean = 0.2354 std = 0.0151
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4502
+[2023-12-29 11:28:36] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.037728 train acc = 1.0000, test acc = 0.2288
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4449
+[2023-12-29 11:28:49] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.502485 train acc = 0.6900, test acc = 0.2326
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4442
+[2023-12-29 11:29:03] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.830450 train acc = 0.3900, test acc = 0.2486
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4475
+[2023-12-29 11:29:16] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.813825 train acc = 0.4100, test acc = 0.2535
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4433
+[2023-12-29 11:29:29] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.733241 train acc = 0.4500, test acc = 0.2408
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.452
+[2023-12-29 11:29:40] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.786022 train acc = 0.4000, test acc = 0.2417
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4509
+[2023-12-29 11:29:53] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.355382 train acc = 0.8800, test acc = 0.2319
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4405
+[2023-12-29 11:30:06] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.392065 train acc = 0.8000, test acc = 0.2551
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4567
+[2023-12-29 11:30:18] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.650716 train acc = 0.5800, test acc = 0.2542
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4464
+[2023-12-29 11:30:30] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.795487 train acc = 0.3900, test acc = 0.2610
+Evaluate 10 random AlexNet, mean = 0.2448 std = 0.0107
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4497
+[2023-12-29 11:30:43] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.955410 train acc = 0.3000, test acc = 0.2366
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4338
+[2023-12-29 11:30:56] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.740668 train acc = 0.4900, test acc = 0.2518
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4442
+[2023-12-29 11:31:07] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.619148 train acc = 0.5600, test acc = 0.2343
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4548
+[2023-12-29 11:31:16] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.095306 train acc = 0.9900, test acc = 0.2331
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4398
+[2023-12-29 11:31:25] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.447292 train acc = 0.7600, test acc = 0.2397
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4514
+[2023-12-29 11:31:36] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.815653 train acc = 0.3700, test acc = 0.2578
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4535
+[2023-12-29 11:31:45] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.260961 train acc = 0.9000, test acc = 0.2379
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4413
+[2023-12-29 11:31:58] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.048192 train acc = 1.0000, test acc = 0.2393
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4405
+[2023-12-29 11:32:11] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.245656 train acc = 0.9200, test acc = 0.2302
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4485
+[2023-12-29 11:32:24] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.104230 train acc = 0.9900, test acc = 0.2290
+Evaluate 10 random AlexNet, mean = 0.2390 std = 0.0087
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4456
+[2023-12-29 11:32:37] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.070486 train acc = 1.0000, test acc = 0.2440
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4412
+[2023-12-29 11:32:50] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.008474 train acc = 1.0000, test acc = 0.2579
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4307
+[2023-12-29 11:33:02] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.883541 train acc = 0.3400, test acc = 0.2396
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4525
+[2023-12-29 11:33:15] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.784593 train acc = 0.4400, test acc = 0.2515
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4541
+[2023-12-29 11:33:26] Evaluate_3000: epoch = 0300 train time = 9 s train loss = 0.659346 train acc = 0.5500, test acc = 0.2146
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4409
+[2023-12-29 11:33:36] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.649193 train acc = 0.5400, test acc = 0.2272
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4452
+[2023-12-29 11:33:46] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.203273 train acc = 0.9000, test acc = 0.2190
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4493
+[2023-12-29 11:33:58] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.713227 train acc = 0.4200, test acc = 0.2349
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.451
+[2023-12-29 11:34:11] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.166072 train acc = 0.9600, test acc = 0.2665
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4434
+[2023-12-29 11:34:24] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.433636 train acc = 0.7500, test acc = 0.2601
+Evaluate 10 random AlexNet, mean = 0.2415 std = 0.0168
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4479
+[2023-12-29 11:34:36] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.022099 train acc = 1.0000, test acc = 0.2786
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4424
+[2023-12-29 11:34:48] Evaluate_3000: epoch = 0300 train time = 10 s train loss = 0.000401 train acc = 1.0000, test acc = 0.2526
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4516
+[2023-12-29 11:35:01] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.027268 train acc = 1.0000, test acc = 0.2518
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4492
+[2023-12-29 11:35:15] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.730401 train acc = 0.4700, test acc = 0.2911
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4442
+[2023-12-29 11:35:25] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.008362 train acc = 1.0000, test acc = 0.2644
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4434
+[2023-12-29 11:35:34] Evaluate_3000: epoch = 0300 train time = 7 s train loss = 0.062875 train acc = 1.0000, test acc = 0.2630
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.443
+[2023-12-29 11:35:45] Evaluate_3000: epoch = 0300 train time = 8 s train loss = 0.000426 train acc = 1.0000, test acc = 0.2600
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4544
+[2023-12-29 11:35:58] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.003397 train acc = 1.0000, test acc = 0.2652
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4504
+[2023-12-29 11:36:11] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.006477 train acc = 1.0000, test acc = 0.2568
+Load synthetic data from:  result/modelpool_res_DC_CIFAR10_ConvNet_10ipc_3000.pt
+Teacher model test acc: 0.4482
+[2023-12-29 11:36:24] Evaluate_3000: epoch = 0300 train time = 11 s train loss = 0.020227 train acc = 1.0000, test acc = 0.2699
+Evaluate 10 random AlexNet, mean = 0.2653 std = 0.0115
+-------------------------
+use stored data
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'none'}
