@@ -1,6 +1,8 @@
 # Improve Cross-Architecture Generalization on Dataset Distillation
 
-This is a joint work by [Binglin Zhou](https://github.com/Zhou-bl), [Linhao Zhong](https://github.com/zhongzero), and [Wentao Chen](https://github.com/John-Steve-C). More details are included in our [paper](./paper/Cross_Architecture_Generalization_on_Dataset_Distillation.pdf). 
+This is a joint work by [Binglin Zhou](https://github.com/Zhou-bl), [Linhao Zhong](https://github.com/zhongzero), and [Wentao Chen](https://github.com/John-Steve-C). More details are included in our [paper](./paper/Cross_Architecture_Generalization_on_Dataset_Distillation.pdf) and [pages](https://distill-generalization-group.github.io/) 
+
+This work is a course project of Course 2023 Fall, CS348: Computer Vision in SJTU. Our paper is also accepted by ICMSSP 2024.
 
 ## Abstract
 
